@@ -1,0 +1,3228 @@
+{
+  "users": [
+    {
+      "id": "usr-alex-01",
+      "phoneNumber": "+1 (555) 019-2834",
+      "normalizedPhone": "15550192834",
+      "name": "Sougata",
+      "heightCm": 180,
+      "weightKg": 69,
+      "heightUnit": "cm",
+      "weightUnit": "kg",
+      "dietPreference": "vegetarian",
+      "fitnessGoal": "muscle_gain",
+      "isProfileComplete": true,
+      "dietPlan": {
+        "id": "diet-1789764447986-je2fx9",
+        "generatedAt": "2026-09-18T20:47:27.986Z",
+        "bmi": 21.3,
+        "bmiCategory": "Normal weight",
+        "bmrCalories": 1680,
+        "tdeeCalories": 2310,
+        "targetCalories": 2657,
+        "macroSplit": {
+          "proteinG": 199,
+          "proteinPct": 30,
+          "carbsG": 299,
+          "carbsPct": 45,
+          "fatsG": 74,
+          "fatsPct": 25
+        },
+        "hydrationTargetLiters": 2.4,
+        "meals": {
+          "breakfast": {
+            "name": "Organic Rolled Oats & Chia Superfood Bowl",
+            "title": "High-Fiber Antioxidant Breakfast",
+            "description": "Warm steel-cut oats simmered in unsweetened oat milk, topped with chia seeds, wild blueberries, crushed walnuts, and a drizzle of organic maple.",
+            "portion": "1 medium bowl (320g)",
+            "calories": 691,
+            "proteinG": 44,
+            "carbsG": 96,
+            "fatsG": 18,
+            "ecoScore": "A+",
+            "carbonKg": 0.18,
+            "ingredients": [
+              "Rolled Oats",
+              "Oat Milk",
+              "Chia Seeds",
+              "Wild Blueberries",
+              "Raw Walnuts"
+            ],
+            "tips": "Rich in beta-glucan fiber to regulate glucose and sustain morning mental clarity.",
+            "id": "meal-b-1789764447986",
+            "category": "breakfast"
+          },
+          "morningSnack": {
+            "name": "Raw California Walnuts & Honeycrisp Apple Slices",
+            "title": "Brain-Boosting Morning Refuel",
+            "description": "Handful of unsalted raw walnuts paired with crisp, locally harvested organic apple slices sprinkled with Ceylon cinnamon.",
+            "portion": "1 serving (140g)",
+            "calories": 266,
+            "proteinG": 16,
+            "carbsG": 36,
+            "fatsG": 9,
+            "ecoScore": "A+",
+            "carbonKg": 0.08,
+            "ingredients": [
+              "Raw Walnuts",
+              "Organic Apple",
+              "Ceylon Cinnamon"
+            ],
+            "tips": "Polyphenols in apple peels protect gut microbiota and dampen mid-morning oxidative stress.",
+            "id": "meal-ms-1789764447986",
+            "category": "morning_snack"
+          },
+          "lunch": {
+            "name": "Mediterranean Quinoa & Spiced Chickpea Buddha Bowl",
+            "title": "Complete Plant Protein & Micro-Nutrients",
+            "description": "Fluffy tri-color quinoa, paprika-roasted chickpeas, diced Persian cucumbers, Kalamata olives, shredded red cabbage, and lemon-tahini dressing.",
+            "portion": "1 large bowl (380g)",
+            "calories": 850,
+            "proteinG": 64,
+            "carbsG": 102,
+            "fatsG": 21,
+            "ecoScore": "A+",
+            "carbonKg": 0.26,
+            "ingredients": [
+              "Tri-Color Quinoa",
+              "Chickpeas",
+              "Tahini",
+              "Cucumbers",
+              "Kalamata Olives",
+              "Red Cabbage"
+            ],
+            "tips": "Quinoa + chickpeas provide all 9 essential amino acids in a 100% zero-slaughter meal.",
+            "id": "meal-l-1789764447986",
+            "category": "lunch"
+          },
+          "afternoonSnack": {
+            "name": "Steamed Edamame with Coarse Sea Salt & Matcha Tea",
+            "title": "Afternoon Focus & Clean Protein",
+            "description": "Fresh organic edamame pods lightly steamed with flaky Celtic sea salt, served alongside antioxidant-rich Japanese ceremonial matcha.",
+            "portion": "1 bowl (160g)",
+            "calories": 239,
+            "proteinG": 20,
+            "carbsG": 24,
+            "fatsG": 6,
+            "ecoScore": "A+",
+            "carbonKg": 0.09,
+            "ingredients": [
+              "Edamame Pods",
+              "Flaky Sea Salt",
+              "Ceremonial Matcha"
+            ],
+            "tips": "L-theanine in matcha works synergistically with natural amino acids to sharpen mental focus.",
+            "id": "meal-as-1789764447986",
+            "category": "afternoon_snack"
+          },
+          "dinner": {
+            "name": "Crispy Sesame Tempeh & Wok-Tossed Rainbow Greens",
+            "title": "Probiotic Fermented Protein Feast",
+            "description": "Pan-crisped organic soy tempeh glazed in low-sodium tamari and toasted sesame oil, served over wok-seared bok choy, bell peppers, snap peas, and black wild rice.",
+            "portion": "1 large plate (390g)",
+            "calories": 611,
+            "proteinG": 56,
+            "carbsG": 72,
+            "fatsG": 21,
+            "ecoScore": "A+",
+            "carbonKg": 0.28,
+            "ingredients": [
+              "Organic Tempeh",
+              "Bok Choy",
+              "Black Wild Rice",
+              "Snap Peas",
+              "Tamari & Sesame"
+            ],
+            "tips": "Fermented tempeh provides intact gut probiotics and gentle nighttime digestibility.",
+            "id": "meal-d-1789764447986",
+            "category": "dinner"
+          }
+        },
+        "weeklyOverview": [
+          {
+            "day": "Monday",
+            "focus": "Plant-Forward Foundation",
+            "calorieTarget": 2657,
+            "highlight": "Quinoa & Lentil Power Bowl",
+            "ecoTip": "Cutting red meat today saves ~4.2 kg CO₂."
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Metabolic & Fiber Boost",
+            "calorieTarget": 2657,
+            "highlight": "Tempeh Stir-Fry & Steamed Greens",
+            "ecoTip": "Fermented proteins nurture microbiome diversity."
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Antioxidant & Recovery",
+            "calorieTarget": 2657,
+            "highlight": "Berry & Walnut Superfood Mix",
+            "ecoTip": "Locally grown berries have 60% lower transit emissions."
+          },
+          {
+            "day": "Thursday",
+            "focus": "Clean Lean Nutrition",
+            "calorieTarget": 2657,
+            "highlight": "Golden Sweet Potato Dal",
+            "ecoTip": "Root vegetables require minimal irrigation."
+          },
+          {
+            "day": "Friday",
+            "focus": "Sustained Vitality",
+            "calorieTarget": 2657,
+            "highlight": "Mediterranean Chickpea Platter",
+            "ecoTip": "Plant legumes naturally fix nitrogen into soils."
+          },
+          {
+            "day": "Saturday",
+            "focus": "Mindful Seasonal Dining",
+            "calorieTarget": 2790,
+            "highlight": "Chef Wild Harvest Medley",
+            "ecoTip": "Dining seasonally reduces cold-storage emissions."
+          },
+          {
+            "day": "Sunday",
+            "focus": "Digestive Reset & Meal Prep",
+            "calorieTarget": 2524,
+            "highlight": "Hydrating Green Detox Soup",
+            "ecoTip": "Batch cooking lowers kitchen energy consumption by 35%."
+          }
+        ],
+        "ecoFootprintDailyKg": 0.89,
+        "ecoSavingsPct": 76,
+        "ecoTip": "By following this vegetarian plan, your daily food emissions are only 0.89 kg CO₂/day — 76% lower than the national benchmark!",
+        "disclaimer": "This diet plan is an AI-generated general wellness suggestion based on user-provided metrics and is not professional medical, nutritional, or clinical advice. Consult a licensed healthcare provider or registered dietitian before making significant dietary changes."
+      },
+      "passwordHash": "e101e1f24f43e8a38c0731811a8d53614fd7d7ebfb591594fb2612def2c694e931491ac548d1c307f29b77a685465bb896aceabb38181ecbeef8f62f5aa2dcf7",
+      "salt": "ebb2f53da74e67a6c79edc1b5916ae0d",
+      "weeklyTargetKg": 110,
+      "createdAt": "2026-09-18T19:49:58.150Z",
+      "activityPlan": {
+        "id": "actplan-1789764447987-4y8jvg",
+        "generatedAt": "2026-09-18T20:47:27.987Z",
+        "weightKg": 69,
+        "heightCm": 180,
+        "bmi": 21.3,
+        "bmiCategory": "Normal weight",
+        "fitnessLevel": "Progressive Functional Calisthenics",
+        "recommendedDaysPerWeek": 5,
+        "weeklyCalorieBurnEstimate": 684,
+        "introSummary": "Based on your current weight (69 kg, BMI 21.3), here's a personalized, beginner-safe weekly activity plan to help you build functional fitness and stamina.",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focusTitle": "Morning Tempo Brisk Walk & Core Warmup",
+            "isRestDay": false,
+            "totalDurationMinutes": 35,
+            "estimatedCalorieBurn": 114,
+            "routine": [
+              {
+                "id": "ex-mon-1-1789764447987",
+                "name": "Brisk Cadence Walking & Light Jog Intervals",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm (Conversational pace)",
+                "estimatedCalorieBurn": 86,
+                "description": "Comfortable steady-paced walking with 30-second light jog intervals every 5 minutes.",
+                "equipmentNeeded": "Comfortable supportive walking shoes",
+                "warmup": "2 minutes of ankle circles, hip openers, and slow gentle pacing.",
+                "cooldown": "3 minutes of slow walking and standing calf/quad stretches.",
+                "safetyTip": "Maintain upright posture; avoid leaning forward to minimize lower back pressure."
+              },
+              {
+                "id": "ex-mon-2-1789764447987",
+                "name": "Standing Core & Pelvic Alignment",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 24,
+                "description": "Controlled standing pelvic tilts, abdominal bracing, and gentle high-knee march holds.",
+                "equipmentNeeded": "None (wall or chair for light balance support)",
+                "warmup": "Side-to-side gentle torso rotations.",
+                "cooldown": "Slow deep diaphragm breathing.",
+                "safetyTip": "Engage core gently without holding your breath."
+              }
+            ],
+            "wellnessNote": "Hydrate with at least 500ml of water throughout the morning."
+          },
+          {
+            "day": "Tuesday",
+            "focusTitle": "Functional Lower Body & Core Strength",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 103,
+            "routine": [
+              {
+                "id": "ex-tue-1-1789764447987",
+                "name": "Bodyweight Air Squats & Incline Push-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 57,
+                "description": "3 sets of 12 full air squats + 10 incline push-ups + 20-second plank hold.",
+                "equipmentNeeded": "Sturdy chair or stable wall",
+                "warmup": "Arm swings and unweighted knee lifts for 2 minutes.",
+                "cooldown": "Seated hamstring stretch and chest opening stretch.",
+                "safetyTip": "Ensure knees stay aligned over your second toe; do not let knees collapse inward."
+              },
+              {
+                "id": "ex-tue-2-1789764447987",
+                "name": "Glute Bridges & Seated Spinal Twist",
+                "category": "mobility",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "90-105 bpm",
+                "estimatedCalorieBurn": 24,
+                "description": "Lying on a soft yoga mat, press through heels to raise hips into bridge (2 sets of 10 reps), followed by seated spine twists.",
+                "equipmentNeeded": "Yoga mat or carpet",
+                "warmup": "Cat-Cow stretch on hands and knees.",
+                "cooldown": "Child’s pose hold for 60 seconds.",
+                "safetyTip": "Squeeze glutes at the top of the bridge without arching your lower back excessively."
+              }
+            ],
+            "wellnessNote": "Muscle recovery takes 24-48 hours; prioritize quality protein at lunch."
+          },
+          {
+            "day": "Wednesday",
+            "focusTitle": "Active Recovery & Mindful Mobility",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 41,
+            "routine": [
+              {
+                "id": "ex-wed-1-1789764447987",
+                "name": "Gentle Restorative Flow & Neck/Shoulder Release",
+                "category": "mobility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "85-100 bpm",
+                "estimatedCalorieBurn": 41,
+                "description": "A soothing sequence of neck rolls, shoulder shrugs, seated side bends, and 10 minutes of easy strolling outdoors.",
+                "equipmentNeeded": "Yoga mat (optional)",
+                "warmup": "Deep diaphragmatic breathing in a comfortable seated position.",
+                "cooldown": "Lying supine hamstring stretch with towel support.",
+                "safetyTip": "Never bounce in a stretch; hold each position gently for 20-30 seconds."
+              }
+            ],
+            "wellnessNote": "Rest days allow muscle tissue to rebuild stronger and reduce cortisol levels."
+          },
+          {
+            "day": "Thursday",
+            "focusTitle": "Tempo Cardio & Interval Walk",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 135,
+            "routine": [
+              {
+                "id": "ex-thu-1-1789764447987",
+                "name": "Brisk Outdoor Cycling or Incline Walk",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 112,
+                "description": "Moderate paced cycling on flat/rolling terrain or a 3-degree treadmill incline walk.",
+                "equipmentNeeded": "Stationary bike, outdoor cycle, or walking path",
+                "warmup": "3 minutes of zero-resistance gentle pedaling or casual walking.",
+                "cooldown": "2 minutes of easy pacing and standing quad stretches.",
+                "safetyTip": "Adjust saddle height so your knee has a slight 10-15 degree bend at the bottom of the stroke."
+              },
+              {
+                "id": "ex-thu-2-1789764447987",
+                "name": "Standing Calf Raises & Ankle Mobility",
+                "category": "strength",
+                "durationMinutes": 5,
+                "intensity": "Low",
+                "targetHeartRate": "95-105 bpm",
+                "estimatedCalorieBurn": 12,
+                "description": "2 sets of 12 controlled calf raises standing on flat ground, holding a counter for balance.",
+                "equipmentNeeded": "None",
+                "warmup": "Ankle rotations.",
+                "cooldown": "Calf stretch against the wall.",
+                "safetyTip": "Raise and lower on a 2-second count for maximum tendon adaptation."
+              }
+            ],
+            "wellnessNote": "Endurance workouts boost capillary density and mitochondria function."
+          },
+          {
+            "day": "Friday",
+            "focusTitle": "Full Body Calisthenics Circuit",
+            "isRestDay": false,
+            "totalDurationMinutes": 25,
+            "estimatedCalorieBurn": 95,
+            "routine": [
+              {
+                "id": "ex-fri-1-1789764447987",
+                "name": "Doorframe Rows, Push-Ups & Step-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm",
+                "estimatedCalorieBurn": 57,
+                "description": "3 rounds of 10 doorframe rows, 8 push-ups, and 10 alternating step-ups on a sturdy step.",
+                "equipmentNeeded": "Light resistance band or two 1-liter water bottles",
+                "warmup": "Arm circles and torso twists for 2 minutes.",
+                "cooldown": "Chest doorway stretch and upper back stretch.",
+                "safetyTip": "Keep shoulders pulled down and back away from your ears."
+              },
+              {
+                "id": "ex-fri-2-1789764447987",
+                "name": "Core Bracing & Deadbugs",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 28,
+                "description": "Lying on back, alternate extending opposite arm and leg while pressing lower back flat into the floor (2 sets of 8 reps per side).",
+                "equipmentNeeded": "Yoga mat",
+                "warmup": "Pelvic tilts.",
+                "cooldown": "Full body pencil stretch on mat.",
+                "safetyTip": "If your lower back arches off the mat, reduce the range of motion of your legs."
+              }
+            ],
+            "wellnessNote": "Consistent core strength prevents lower back fatigue during daily work."
+          },
+          {
+            "day": "Saturday",
+            "focusTitle": "Eco-Commute Nature Walk or Green Exploration",
+            "isRestDay": false,
+            "totalDurationMinutes": 45,
+            "estimatedCalorieBurn": 155,
+            "routine": [
+              {
+                "id": "ex-sat-1-1789764447987",
+                "name": "Nature Trail Walk / Low-Carbon Transit Stroll",
+                "category": "cardio",
+                "durationMinutes": 45,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-125 bpm",
+                "estimatedCalorieBurn": 155,
+                "description": "Continuous relaxed outdoor walk in a local park, greenway, or walking errand, taking in natural sunlight and fresh air.",
+                "equipmentNeeded": "Walking shoes & water bottle",
+                "warmup": "3 minutes of slow pacing.",
+                "cooldown": "Gentle standing quad and hamstring stretches.",
+                "safetyTip": "Stay on established paths and wear sunscreen for outdoor sessions."
+              }
+            ],
+            "wellnessNote": "Exercising in green outdoor spaces reduces stress biomarkers by up to 28%."
+          },
+          {
+            "day": "Sunday",
+            "focusTitle": "Full Body Restorative Yoga & Sleep Prep",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 41,
+            "routine": [
+              {
+                "id": "ex-sun-1-1789764447987",
+                "name": "Gentle Evening Yoga & Diaphragmatic Breathwork",
+                "category": "flexibility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "80-95 bpm",
+                "estimatedCalorieBurn": 41,
+                "description": "Gentle seated forward fold, butterfly pose, legs-up-the-wall pose (5 minutes), and 5 minutes of 4-7-8 relaxing breathing.",
+                "equipmentNeeded": "Yoga mat & comfortable loose clothing",
+                "warmup": "Gentle neck and shoulder rolls.",
+                "cooldown": "Savasana relaxation pose.",
+                "safetyTip": "Focus on slow nasal breathing; allow muscles to release without tension."
+              }
+            ],
+            "wellnessNote": "Good sleep tonight establishes positive metabolic rhythm for the coming week."
+          }
+        ],
+        "weeklyMilestones": [
+          "Complete at least 5 planned activity sessions this week.",
+          "Accumulate a minimum of 150 active movement minutes across the 7 days.",
+          "Burn an estimated 684 active kcal while maintaining safe joint alignment."
+        ],
+        "disclaimer": "This is an AI-generated suggestion, not medical advice. Consult a professional before starting any new fitness routine, especially if you have existing health conditions."
+      },
+      "reminderSettings": {
+        "globalEnabled": true,
+        "soundEnabled": true,
+        "browserNotificationsEnabled": false,
+        "reminders": {
+          "breakfast": {
+            "id": "breakfast",
+            "label": "Breakfast Reminder",
+            "time": "08:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Morning sustenance & hydration"
+          },
+          "morning_snack": {
+            "id": "morning_snack",
+            "label": "Mid-Morning Snack",
+            "time": "10:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Focus boost & healthy fats"
+          },
+          "lunch": {
+            "id": "lunch",
+            "label": "Lunch Reminder",
+            "time": "13:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Core midday metabolic fuel"
+          },
+          "afternoon_snack": {
+            "id": "afternoon_snack",
+            "label": "Afternoon Snack",
+            "time": "16:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Clean energy refuel"
+          },
+          "dinner": {
+            "id": "dinner",
+            "label": "Dinner Reminder",
+            "time": "20:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Restorative evening meal"
+          },
+          "activity": {
+            "id": "activity",
+            "label": "Fitness Activity Session",
+            "time": "18:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Scheduled movement & exercise routine"
+          }
+        },
+        "lastFiredMap": {}
+      }
+    },
+    {
+      "id": "usr-1789761019104-y49b0",
+      "phoneNumber": "+15552080469",
+      "normalizedPhone": "15552080469",
+      "name": "Jordan Taylor",
+      "heightCm": 182,
+      "weightKg": 75,
+      "heightUnit": "cm",
+      "weightUnit": "kg",
+      "dietPreference": "vegan",
+      "fitnessGoal": "muscle_gain",
+      "isProfileComplete": true,
+      "dietPlan": {
+        "id": "diet-1789761019113-a6qbf0",
+        "generatedAt": "2026-09-18T19:50:19.113Z",
+        "bmi": 22.6,
+        "bmiCategory": "Normal weight",
+        "bmrCalories": 1753,
+        "tdeeCalories": 2410,
+        "targetCalories": 2772,
+        "macroSplit": {
+          "proteinG": 208,
+          "proteinPct": 30,
+          "carbsG": 312,
+          "carbsPct": 45,
+          "fatsG": 77,
+          "fatsPct": 25
+        },
+        "hydrationTargetLiters": 2.6,
+        "meals": {
+          "breakfast": {
+            "name": "Turmeric Tofu Scramble & Avocado Toast",
+            "title": "Plant Protein & Healthy Fats",
+            "description": "Pan-seared sprouted organic tofu seasoned with turmeric, nutritional yeast, and baby spinach served atop whole-grain artisan sourdough with sliced avocado.",
+            "portion": "1 plate (300g)",
+            "calories": 748,
+            "proteinG": 54,
+            "carbsG": 87,
+            "fatsG": 22,
+            "ecoScore": "A+",
+            "carbonKg": 0.22,
+            "ingredients": [
+              "Sprouted Tofu",
+              "Baby Spinach",
+              "Sourdough Bread",
+              "Avocado",
+              "Nutritional Yeast"
+            ],
+            "tips": "Sprouted tofu provides complete bioavailable amino acids with minimal carbon footprint.",
+            "id": "meal-b-1789761019113",
+            "category": "breakfast"
+          },
+          "morningSnack": {
+            "name": "Raw California Walnuts & Honeycrisp Apple Slices",
+            "title": "Brain-Boosting Morning Refuel",
+            "description": "Handful of unsalted raw walnuts paired with crisp, locally harvested organic apple slices sprinkled with Ceylon cinnamon.",
+            "portion": "1 serving (140g)",
+            "calories": 277,
+            "proteinG": 17,
+            "carbsG": 37,
+            "fatsG": 9,
+            "ecoScore": "A+",
+            "carbonKg": 0.08,
+            "ingredients": [
+              "Raw Walnuts",
+              "Organic Apple",
+              "Ceylon Cinnamon"
+            ],
+            "tips": "Polyphenols in apple peels protect gut microbiota and dampen mid-morning oxidative stress.",
+            "id": "meal-ms-1789761019113",
+            "category": "morning_snack"
+          },
+          "lunch": {
+            "name": "Golden Lentil & Sweet Potato Coconut Curry",
+            "title": "Ayurvedic Anti-Inflammatory Lunch",
+            "description": "Simmered yellow split lentils, tender Japanese sweet potatoes, and organic coconut milk infused with fresh ginger, garlic, turmeric, served with brown basmati.",
+            "portion": "1 deep bowl (400g)",
+            "calories": 915,
+            "proteinG": 62,
+            "carbsG": 112,
+            "fatsG": 20,
+            "ecoScore": "A+",
+            "carbonKg": 0.24,
+            "ingredients": [
+              "Yellow Lentils",
+              "Sweet Potato",
+              "Coconut Milk",
+              "Turmeric",
+              "Brown Basmati Rice"
+            ],
+            "tips": "Curcumin combined with healthy lipids enhances anti-inflammatory systemic absorption.",
+            "id": "meal-l-1789761019113",
+            "category": "lunch"
+          },
+          "afternoonSnack": {
+            "name": "Steamed Edamame with Coarse Sea Salt & Matcha Tea",
+            "title": "Afternoon Focus & Clean Protein",
+            "description": "Fresh organic edamame pods lightly steamed with flaky Celtic sea salt, served alongside antioxidant-rich Japanese ceremonial matcha.",
+            "portion": "1 bowl (160g)",
+            "calories": 249,
+            "proteinG": 21,
+            "carbsG": 25,
+            "fatsG": 6,
+            "ecoScore": "A+",
+            "carbonKg": 0.09,
+            "ingredients": [
+              "Edamame Pods",
+              "Flaky Sea Salt",
+              "Ceremonial Matcha"
+            ],
+            "tips": "L-theanine in matcha works synergistically with natural amino acids to sharpen mental focus.",
+            "id": "meal-as-1789761019113",
+            "category": "afternoon_snack"
+          },
+          "dinner": {
+            "name": "Moroccan Chickpea & Roasted Vegetable Tagine",
+            "title": "Warm Spiced Slow-Simmered Comfort",
+            "description": "Slow-cooked stew of chickpeas, butternut squash, zucchini, and dried apricots in a fragrant cumin-coriander broth, served with whole-wheat couscous.",
+            "portion": "1 large bowl (400g)",
+            "calories": 638,
+            "proteinG": 54,
+            "carbsG": 87,
+            "fatsG": 20,
+            "ecoScore": "A+",
+            "carbonKg": 0.25,
+            "ingredients": [
+              "Chickpeas",
+              "Butternut Squash",
+              "Zucchini",
+              "Apricots",
+              "Whole-Wheat Couscous"
+            ],
+            "tips": "Slow-simmered spices stimulate thermogenesis and ease digestive transit before sleep.",
+            "id": "meal-d-1789761019113",
+            "category": "dinner"
+          }
+        },
+        "weeklyOverview": [
+          {
+            "day": "Monday",
+            "focus": "Plant-Forward Foundation",
+            "calorieTarget": 2772,
+            "highlight": "Quinoa & Lentil Power Bowl",
+            "ecoTip": "Cutting red meat today saves ~4.2 kg CO₂."
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Metabolic & Fiber Boost",
+            "calorieTarget": 2772,
+            "highlight": "Tempeh Stir-Fry & Steamed Greens",
+            "ecoTip": "Fermented proteins nurture microbiome diversity."
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Antioxidant & Recovery",
+            "calorieTarget": 2772,
+            "highlight": "Berry & Walnut Superfood Mix",
+            "ecoTip": "Locally grown berries have 60% lower transit emissions."
+          },
+          {
+            "day": "Thursday",
+            "focus": "Clean Lean Nutrition",
+            "calorieTarget": 2772,
+            "highlight": "Golden Sweet Potato Dal",
+            "ecoTip": "Root vegetables require minimal irrigation."
+          },
+          {
+            "day": "Friday",
+            "focus": "Sustained Vitality",
+            "calorieTarget": 2772,
+            "highlight": "Mediterranean Chickpea Platter",
+            "ecoTip": "Plant legumes naturally fix nitrogen into soils."
+          },
+          {
+            "day": "Saturday",
+            "focus": "Mindful Seasonal Dining",
+            "calorieTarget": 2911,
+            "highlight": "Chef Wild Harvest Medley",
+            "ecoTip": "Dining seasonally reduces cold-storage emissions."
+          },
+          {
+            "day": "Sunday",
+            "focus": "Digestive Reset & Meal Prep",
+            "calorieTarget": 2633,
+            "highlight": "Hydrating Green Detox Soup",
+            "ecoTip": "Batch cooking lowers kitchen energy consumption by 35%."
+          }
+        ],
+        "ecoFootprintDailyKg": 0.88,
+        "ecoSavingsPct": 76,
+        "ecoTip": "By following this vegan plan, your daily food emissions are only 0.88 kg CO₂/day — 76% lower than the national benchmark!",
+        "disclaimer": "This diet plan is an AI-generated general wellness suggestion based on user-provided metrics and is not professional medical, nutritional, or clinical advice. Consult a licensed healthcare provider or registered dietitian before making significant dietary changes."
+      },
+      "passwordHash": "7f3ef89be2181462f3132441222f558fb37b4b2655d557241eb9effc686848db52b737d92f4b6aa2fdaca872600a55f8638e8dc76920a0fd72de71ce146a3a02",
+      "salt": "91fcef289c301a99e528e929caf62b1f",
+      "weeklyTargetKg": 50,
+      "createdAt": "2026-09-18T19:50:19.104Z",
+      "activityPlan": {
+        "id": "actplan-1789762951849-vyrvrr",
+        "generatedAt": "2026-09-18T20:22:31.849Z",
+        "weightKg": 75,
+        "heightCm": 182,
+        "bmi": 22.6,
+        "bmiCategory": "Normal weight",
+        "fitnessLevel": "Progressive Functional Calisthenics",
+        "recommendedDaysPerWeek": 5,
+        "weeklyCalorieBurnEstimate": 745,
+        "introSummary": "Based on your current weight (75 kg, BMI 22.6), here's a personalized, beginner-safe weekly activity plan to help you build functional fitness and stamina.",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focusTitle": "Morning Tempo Brisk Walk & Core Warmup",
+            "isRestDay": false,
+            "totalDurationMinutes": 35,
+            "estimatedCalorieBurn": 124,
+            "routine": [
+              {
+                "id": "ex-mon-1-1789762951849",
+                "name": "Brisk Cadence Walking & Light Jog Intervals",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm (Conversational pace)",
+                "estimatedCalorieBurn": 94,
+                "description": "Comfortable steady-paced walking with 30-second light jog intervals every 5 minutes.",
+                "equipmentNeeded": "Comfortable supportive walking shoes",
+                "warmup": "2 minutes of ankle circles, hip openers, and slow gentle pacing.",
+                "cooldown": "3 minutes of slow walking and standing calf/quad stretches.",
+                "safetyTip": "Maintain upright posture; avoid leaning forward to minimize lower back pressure."
+              },
+              {
+                "id": "ex-mon-2-1789762951849",
+                "name": "Standing Core & Pelvic Alignment",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 26,
+                "description": "Controlled standing pelvic tilts, abdominal bracing, and gentle high-knee march holds.",
+                "equipmentNeeded": "None (wall or chair for light balance support)",
+                "warmup": "Side-to-side gentle torso rotations.",
+                "cooldown": "Slow deep diaphragm breathing.",
+                "safetyTip": "Engage core gently without holding your breath."
+              }
+            ],
+            "wellnessNote": "Hydrate with at least 500ml of water throughout the morning."
+          },
+          {
+            "day": "Tuesday",
+            "focusTitle": "Functional Lower Body & Core Strength",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 113,
+            "routine": [
+              {
+                "id": "ex-tue-1-1789762951849",
+                "name": "Bodyweight Air Squats & Incline Push-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 62,
+                "description": "3 sets of 12 full air squats + 10 incline push-ups + 20-second plank hold.",
+                "equipmentNeeded": "Sturdy chair or stable wall",
+                "warmup": "Arm swings and unweighted knee lifts for 2 minutes.",
+                "cooldown": "Seated hamstring stretch and chest opening stretch.",
+                "safetyTip": "Ensure knees stay aligned over your second toe; do not let knees collapse inward."
+              },
+              {
+                "id": "ex-tue-2-1789762951849",
+                "name": "Glute Bridges & Seated Spinal Twist",
+                "category": "mobility",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "90-105 bpm",
+                "estimatedCalorieBurn": 26,
+                "description": "Lying on a soft yoga mat, press through heels to raise hips into bridge (2 sets of 10 reps), followed by seated spine twists.",
+                "equipmentNeeded": "Yoga mat or carpet",
+                "warmup": "Cat-Cow stretch on hands and knees.",
+                "cooldown": "Child’s pose hold for 60 seconds.",
+                "safetyTip": "Squeeze glutes at the top of the bridge without arching your lower back excessively."
+              }
+            ],
+            "wellnessNote": "Muscle recovery takes 24-48 hours; prioritize quality protein at lunch."
+          },
+          {
+            "day": "Wednesday",
+            "focusTitle": "Active Recovery & Mindful Mobility",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 45,
+            "routine": [
+              {
+                "id": "ex-wed-1-1789762951849",
+                "name": "Gentle Restorative Flow & Neck/Shoulder Release",
+                "category": "mobility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "85-100 bpm",
+                "estimatedCalorieBurn": 45,
+                "description": "A soothing sequence of neck rolls, shoulder shrugs, seated side bends, and 10 minutes of easy strolling outdoors.",
+                "equipmentNeeded": "Yoga mat (optional)",
+                "warmup": "Deep diaphragmatic breathing in a comfortable seated position.",
+                "cooldown": "Lying supine hamstring stretch with towel support.",
+                "safetyTip": "Never bounce in a stretch; hold each position gently for 20-30 seconds."
+              }
+            ],
+            "wellnessNote": "Rest days allow muscle tissue to rebuild stronger and reduce cortisol levels."
+          },
+          {
+            "day": "Thursday",
+            "focusTitle": "Tempo Cardio & Interval Walk",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 146,
+            "routine": [
+              {
+                "id": "ex-thu-1-1789762951849",
+                "name": "Brisk Outdoor Cycling or Incline Walk",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 122,
+                "description": "Moderate paced cycling on flat/rolling terrain or a 3-degree treadmill incline walk.",
+                "equipmentNeeded": "Stationary bike, outdoor cycle, or walking path",
+                "warmup": "3 minutes of zero-resistance gentle pedaling or casual walking.",
+                "cooldown": "2 minutes of easy pacing and standing quad stretches.",
+                "safetyTip": "Adjust saddle height so your knee has a slight 10-15 degree bend at the bottom of the stroke."
+              },
+              {
+                "id": "ex-thu-2-1789762951849",
+                "name": "Standing Calf Raises & Ankle Mobility",
+                "category": "strength",
+                "durationMinutes": 5,
+                "intensity": "Low",
+                "targetHeartRate": "95-105 bpm",
+                "estimatedCalorieBurn": 13,
+                "description": "2 sets of 12 controlled calf raises standing on flat ground, holding a counter for balance.",
+                "equipmentNeeded": "None",
+                "warmup": "Ankle rotations.",
+                "cooldown": "Calf stretch against the wall.",
+                "safetyTip": "Raise and lower on a 2-second count for maximum tendon adaptation."
+              }
+            ],
+            "wellnessNote": "Endurance workouts boost capillary density and mitochondria function."
+          },
+          {
+            "day": "Friday",
+            "focusTitle": "Full Body Calisthenics Circuit",
+            "isRestDay": false,
+            "totalDurationMinutes": 25,
+            "estimatedCalorieBurn": 103,
+            "routine": [
+              {
+                "id": "ex-fri-1-1789762951849",
+                "name": "Doorframe Rows, Push-Ups & Step-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm",
+                "estimatedCalorieBurn": 62,
+                "description": "3 rounds of 10 doorframe rows, 8 push-ups, and 10 alternating step-ups on a sturdy step.",
+                "equipmentNeeded": "Light resistance band or two 1-liter water bottles",
+                "warmup": "Arm circles and torso twists for 2 minutes.",
+                "cooldown": "Chest doorway stretch and upper back stretch.",
+                "safetyTip": "Keep shoulders pulled down and back away from your ears."
+              },
+              {
+                "id": "ex-fri-2-1789762951849",
+                "name": "Core Bracing & Deadbugs",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 30,
+                "description": "Lying on back, alternate extending opposite arm and leg while pressing lower back flat into the floor (2 sets of 8 reps per side).",
+                "equipmentNeeded": "Yoga mat",
+                "warmup": "Pelvic tilts.",
+                "cooldown": "Full body pencil stretch on mat.",
+                "safetyTip": "If your lower back arches off the mat, reduce the range of motion of your legs."
+              }
+            ],
+            "wellnessNote": "Consistent core strength prevents lower back fatigue during daily work."
+          },
+          {
+            "day": "Saturday",
+            "focusTitle": "Eco-Commute Nature Walk or Green Exploration",
+            "isRestDay": false,
+            "totalDurationMinutes": 45,
+            "estimatedCalorieBurn": 169,
+            "routine": [
+              {
+                "id": "ex-sat-1-1789762951849",
+                "name": "Nature Trail Walk / Low-Carbon Transit Stroll",
+                "category": "cardio",
+                "durationMinutes": 45,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-125 bpm",
+                "estimatedCalorieBurn": 169,
+                "description": "Continuous relaxed outdoor walk in a local park, greenway, or walking errand, taking in natural sunlight and fresh air.",
+                "equipmentNeeded": "Walking shoes & water bottle",
+                "warmup": "3 minutes of slow pacing.",
+                "cooldown": "Gentle standing quad and hamstring stretches.",
+                "safetyTip": "Stay on established paths and wear sunscreen for outdoor sessions."
+              }
+            ],
+            "wellnessNote": "Exercising in green outdoor spaces reduces stress biomarkers by up to 28%."
+          },
+          {
+            "day": "Sunday",
+            "focusTitle": "Full Body Restorative Yoga & Sleep Prep",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 45,
+            "routine": [
+              {
+                "id": "ex-sun-1-1789762951849",
+                "name": "Gentle Evening Yoga & Diaphragmatic Breathwork",
+                "category": "flexibility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "80-95 bpm",
+                "estimatedCalorieBurn": 45,
+                "description": "Gentle seated forward fold, butterfly pose, legs-up-the-wall pose (5 minutes), and 5 minutes of 4-7-8 relaxing breathing.",
+                "equipmentNeeded": "Yoga mat & comfortable loose clothing",
+                "warmup": "Gentle neck and shoulder rolls.",
+                "cooldown": "Savasana relaxation pose.",
+                "safetyTip": "Focus on slow nasal breathing; allow muscles to release without tension."
+              }
+            ],
+            "wellnessNote": "Good sleep tonight establishes positive metabolic rhythm for the coming week."
+          }
+        ],
+        "weeklyMilestones": [
+          "Complete at least 5 planned activity sessions this week.",
+          "Accumulate a minimum of 150 active movement minutes across the 7 days.",
+          "Burn an estimated 745 active kcal while maintaining safe joint alignment."
+        ],
+        "disclaimer": "This is an AI-generated suggestion, not medical advice. Consult a professional before starting any new fitness routine, especially if you have existing health conditions."
+      },
+      "reminderSettings": {
+        "globalEnabled": true,
+        "soundEnabled": true,
+        "browserNotificationsEnabled": false,
+        "reminders": {
+          "breakfast": {
+            "id": "breakfast",
+            "label": "Breakfast Reminder",
+            "time": "08:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Morning sustenance & hydration"
+          },
+          "morning_snack": {
+            "id": "morning_snack",
+            "label": "Mid-Morning Snack",
+            "time": "10:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Focus boost & healthy fats"
+          },
+          "lunch": {
+            "id": "lunch",
+            "label": "Lunch Reminder",
+            "time": "13:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Core midday metabolic fuel"
+          },
+          "afternoon_snack": {
+            "id": "afternoon_snack",
+            "label": "Afternoon Snack",
+            "time": "16:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Clean energy refuel"
+          },
+          "dinner": {
+            "id": "dinner",
+            "label": "Dinner Reminder",
+            "time": "20:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Restorative evening meal"
+          },
+          "activity": {
+            "id": "activity",
+            "label": "Fitness Activity Session",
+            "time": "18:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Scheduled movement & exercise routine"
+          }
+        },
+        "lastFiredMap": {}
+      }
+    },
+    {
+      "id": "usr-1789761059584-vosu7",
+      "phoneNumber": "+15557504415",
+      "normalizedPhone": "15557504415",
+      "name": "Elena Rostova",
+      "heightCm": 168,
+      "weightKg": 58,
+      "heightUnit": "cm",
+      "weightUnit": "kg",
+      "dietPreference": "vegan",
+      "fitnessGoal": "muscle_gain",
+      "isProfileComplete": true,
+      "dietPlan": {
+        "id": "diet-1789761059596-69q9il",
+        "generatedAt": "2026-09-18T19:50:59.596Z",
+        "bmi": 20.5,
+        "bmiCategory": "Normal weight",
+        "bmrCalories": 1495,
+        "tdeeCalories": 2056,
+        "targetCalories": 2364,
+        "macroSplit": {
+          "proteinG": 177,
+          "proteinPct": 30,
+          "carbsG": 266,
+          "carbsPct": 45,
+          "fatsG": 66,
+          "fatsPct": 25
+        },
+        "hydrationTargetLiters": 2,
+        "meals": {
+          "breakfast": {
+            "name": "Turmeric Tofu Scramble & Avocado Toast",
+            "title": "Plant Protein & Healthy Fats",
+            "description": "Pan-seared sprouted organic tofu seasoned with turmeric, nutritional yeast, and baby spinach served atop whole-grain artisan sourdough with sliced avocado.",
+            "portion": "1 plate (300g)",
+            "calories": 638,
+            "proteinG": 46,
+            "carbsG": 74,
+            "fatsG": 18,
+            "ecoScore": "A+",
+            "carbonKg": 0.22,
+            "ingredients": [
+              "Sprouted Tofu",
+              "Baby Spinach",
+              "Sourdough Bread",
+              "Avocado",
+              "Nutritional Yeast"
+            ],
+            "tips": "Sprouted tofu provides complete bioavailable amino acids with minimal carbon footprint.",
+            "id": "meal-b-1789761059596",
+            "category": "breakfast"
+          },
+          "morningSnack": {
+            "name": "Raw California Walnuts & Honeycrisp Apple Slices",
+            "title": "Brain-Boosting Morning Refuel",
+            "description": "Handful of unsalted raw walnuts paired with crisp, locally harvested organic apple slices sprinkled with Ceylon cinnamon.",
+            "portion": "1 serving (140g)",
+            "calories": 236,
+            "proteinG": 14,
+            "carbsG": 32,
+            "fatsG": 8,
+            "ecoScore": "A+",
+            "carbonKg": 0.08,
+            "ingredients": [
+              "Raw Walnuts",
+              "Organic Apple",
+              "Ceylon Cinnamon"
+            ],
+            "tips": "Polyphenols in apple peels protect gut microbiota and dampen mid-morning oxidative stress.",
+            "id": "meal-ms-1789761059596",
+            "category": "morning_snack"
+          },
+          "lunch": {
+            "name": "Golden Lentil & Sweet Potato Coconut Curry",
+            "title": "Ayurvedic Anti-Inflammatory Lunch",
+            "description": "Simmered yellow split lentils, tender Japanese sweet potatoes, and organic coconut milk infused with fresh ginger, garlic, turmeric, served with brown basmati.",
+            "portion": "1 deep bowl (400g)",
+            "calories": 780,
+            "proteinG": 53,
+            "carbsG": 96,
+            "fatsG": 17,
+            "ecoScore": "A+",
+            "carbonKg": 0.24,
+            "ingredients": [
+              "Yellow Lentils",
+              "Sweet Potato",
+              "Coconut Milk",
+              "Turmeric",
+              "Brown Basmati Rice"
+            ],
+            "tips": "Curcumin combined with healthy lipids enhances anti-inflammatory systemic absorption.",
+            "id": "meal-l-1789761059596",
+            "category": "lunch"
+          },
+          "afternoonSnack": {
+            "name": "Steamed Edamame with Coarse Sea Salt & Matcha Tea",
+            "title": "Afternoon Focus & Clean Protein",
+            "description": "Fresh organic edamame pods lightly steamed with flaky Celtic sea salt, served alongside antioxidant-rich Japanese ceremonial matcha.",
+            "portion": "1 bowl (160g)",
+            "calories": 213,
+            "proteinG": 18,
+            "carbsG": 21,
+            "fatsG": 5,
+            "ecoScore": "A+",
+            "carbonKg": 0.09,
+            "ingredients": [
+              "Edamame Pods",
+              "Flaky Sea Salt",
+              "Ceremonial Matcha"
+            ],
+            "tips": "L-theanine in matcha works synergistically with natural amino acids to sharpen mental focus.",
+            "id": "meal-as-1789761059596",
+            "category": "afternoon_snack"
+          },
+          "dinner": {
+            "name": "Moroccan Chickpea & Roasted Vegetable Tagine",
+            "title": "Warm Spiced Slow-Simmered Comfort",
+            "description": "Slow-cooked stew of chickpeas, butternut squash, zucchini, and dried apricots in a fragrant cumin-coriander broth, served with whole-wheat couscous.",
+            "portion": "1 large bowl (400g)",
+            "calories": 544,
+            "proteinG": 46,
+            "carbsG": 74,
+            "fatsG": 17,
+            "ecoScore": "A+",
+            "carbonKg": 0.25,
+            "ingredients": [
+              "Chickpeas",
+              "Butternut Squash",
+              "Zucchini",
+              "Apricots",
+              "Whole-Wheat Couscous"
+            ],
+            "tips": "Slow-simmered spices stimulate thermogenesis and ease digestive transit before sleep.",
+            "id": "meal-d-1789761059596",
+            "category": "dinner"
+          }
+        },
+        "weeklyOverview": [
+          {
+            "day": "Monday",
+            "focus": "Plant-Forward Foundation",
+            "calorieTarget": 2364,
+            "highlight": "Quinoa & Lentil Power Bowl",
+            "ecoTip": "Cutting red meat today saves ~4.2 kg CO₂."
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Metabolic & Fiber Boost",
+            "calorieTarget": 2364,
+            "highlight": "Tempeh Stir-Fry & Steamed Greens",
+            "ecoTip": "Fermented proteins nurture microbiome diversity."
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Antioxidant & Recovery",
+            "calorieTarget": 2364,
+            "highlight": "Berry & Walnut Superfood Mix",
+            "ecoTip": "Locally grown berries have 60% lower transit emissions."
+          },
+          {
+            "day": "Thursday",
+            "focus": "Clean Lean Nutrition",
+            "calorieTarget": 2364,
+            "highlight": "Golden Sweet Potato Dal",
+            "ecoTip": "Root vegetables require minimal irrigation."
+          },
+          {
+            "day": "Friday",
+            "focus": "Sustained Vitality",
+            "calorieTarget": 2364,
+            "highlight": "Mediterranean Chickpea Platter",
+            "ecoTip": "Plant legumes naturally fix nitrogen into soils."
+          },
+          {
+            "day": "Saturday",
+            "focus": "Mindful Seasonal Dining",
+            "calorieTarget": 2482,
+            "highlight": "Chef Wild Harvest Medley",
+            "ecoTip": "Dining seasonally reduces cold-storage emissions."
+          },
+          {
+            "day": "Sunday",
+            "focus": "Digestive Reset & Meal Prep",
+            "calorieTarget": 2246,
+            "highlight": "Hydrating Green Detox Soup",
+            "ecoTip": "Batch cooking lowers kitchen energy consumption by 35%."
+          }
+        ],
+        "ecoFootprintDailyKg": 0.88,
+        "ecoSavingsPct": 76,
+        "ecoTip": "By following this vegan plan, your daily food emissions are only 0.88 kg CO₂/day — 76% lower than the national benchmark!",
+        "disclaimer": "This diet plan is an AI-generated general wellness suggestion based on user-provided metrics and is not professional medical, nutritional, or clinical advice. Consult a licensed healthcare provider or registered dietitian before making significant dietary changes."
+      },
+      "passwordHash": "4f3d39ce6f9da9ea09b5547442a60492449f9d56a0f7376118c855e95cb19f51b001a494fbb2e27ddb9e6e2f8b4309af997b29ae77681421d1e93ec7768ba6b9",
+      "salt": "03cf9cd6ca93acc564dcf75378e292e0",
+      "weeklyTargetKg": 50,
+      "createdAt": "2026-09-18T19:50:59.584Z",
+      "activityPlan": {
+        "id": "actplan-1789762951849-t6l3i0",
+        "generatedAt": "2026-09-18T20:22:31.849Z",
+        "weightKg": 58,
+        "heightCm": 168,
+        "bmi": 20.5,
+        "bmiCategory": "Normal weight",
+        "fitnessLevel": "Progressive Functional Calisthenics",
+        "recommendedDaysPerWeek": 5,
+        "weeklyCalorieBurnEstimate": 577,
+        "introSummary": "Based on your current weight (58 kg, BMI 20.5), here's a personalized, beginner-safe weekly activity plan to help you build functional fitness and stamina.",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focusTitle": "Morning Tempo Brisk Walk & Core Warmup",
+            "isRestDay": false,
+            "totalDurationMinutes": 35,
+            "estimatedCalorieBurn": 96,
+            "routine": [
+              {
+                "id": "ex-mon-1-1789762951849",
+                "name": "Brisk Cadence Walking & Light Jog Intervals",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm (Conversational pace)",
+                "estimatedCalorieBurn": 73,
+                "description": "Comfortable steady-paced walking with 30-second light jog intervals every 5 minutes.",
+                "equipmentNeeded": "Comfortable supportive walking shoes",
+                "warmup": "2 minutes of ankle circles, hip openers, and slow gentle pacing.",
+                "cooldown": "3 minutes of slow walking and standing calf/quad stretches.",
+                "safetyTip": "Maintain upright posture; avoid leaning forward to minimize lower back pressure."
+              },
+              {
+                "id": "ex-mon-2-1789762951849",
+                "name": "Standing Core & Pelvic Alignment",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 20,
+                "description": "Controlled standing pelvic tilts, abdominal bracing, and gentle high-knee march holds.",
+                "equipmentNeeded": "None (wall or chair for light balance support)",
+                "warmup": "Side-to-side gentle torso rotations.",
+                "cooldown": "Slow deep diaphragm breathing.",
+                "safetyTip": "Engage core gently without holding your breath."
+              }
+            ],
+            "wellnessNote": "Hydrate with at least 500ml of water throughout the morning."
+          },
+          {
+            "day": "Tuesday",
+            "focusTitle": "Functional Lower Body & Core Strength",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 87,
+            "routine": [
+              {
+                "id": "ex-tue-1-1789762951849",
+                "name": "Bodyweight Air Squats & Incline Push-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 48,
+                "description": "3 sets of 12 full air squats + 10 incline push-ups + 20-second plank hold.",
+                "equipmentNeeded": "Sturdy chair or stable wall",
+                "warmup": "Arm swings and unweighted knee lifts for 2 minutes.",
+                "cooldown": "Seated hamstring stretch and chest opening stretch.",
+                "safetyTip": "Ensure knees stay aligned over your second toe; do not let knees collapse inward."
+              },
+              {
+                "id": "ex-tue-2-1789762951849",
+                "name": "Glute Bridges & Seated Spinal Twist",
+                "category": "mobility",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "90-105 bpm",
+                "estimatedCalorieBurn": 20,
+                "description": "Lying on a soft yoga mat, press through heels to raise hips into bridge (2 sets of 10 reps), followed by seated spine twists.",
+                "equipmentNeeded": "Yoga mat or carpet",
+                "warmup": "Cat-Cow stretch on hands and knees.",
+                "cooldown": "Child’s pose hold for 60 seconds.",
+                "safetyTip": "Squeeze glutes at the top of the bridge without arching your lower back excessively."
+              }
+            ],
+            "wellnessNote": "Muscle recovery takes 24-48 hours; prioritize quality protein at lunch."
+          },
+          {
+            "day": "Wednesday",
+            "focusTitle": "Active Recovery & Mindful Mobility",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 35,
+            "routine": [
+              {
+                "id": "ex-wed-1-1789762951849",
+                "name": "Gentle Restorative Flow & Neck/Shoulder Release",
+                "category": "mobility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "85-100 bpm",
+                "estimatedCalorieBurn": 35,
+                "description": "A soothing sequence of neck rolls, shoulder shrugs, seated side bends, and 10 minutes of easy strolling outdoors.",
+                "equipmentNeeded": "Yoga mat (optional)",
+                "warmup": "Deep diaphragmatic breathing in a comfortable seated position.",
+                "cooldown": "Lying supine hamstring stretch with towel support.",
+                "safetyTip": "Never bounce in a stretch; hold each position gently for 20-30 seconds."
+              }
+            ],
+            "wellnessNote": "Rest days allow muscle tissue to rebuild stronger and reduce cortisol levels."
+          },
+          {
+            "day": "Thursday",
+            "focusTitle": "Tempo Cardio & Interval Walk",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 113,
+            "routine": [
+              {
+                "id": "ex-thu-1-1789762951849",
+                "name": "Brisk Outdoor Cycling or Incline Walk",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 94,
+                "description": "Moderate paced cycling on flat/rolling terrain or a 3-degree treadmill incline walk.",
+                "equipmentNeeded": "Stationary bike, outdoor cycle, or walking path",
+                "warmup": "3 minutes of zero-resistance gentle pedaling or casual walking.",
+                "cooldown": "2 minutes of easy pacing and standing quad stretches.",
+                "safetyTip": "Adjust saddle height so your knee has a slight 10-15 degree bend at the bottom of the stroke."
+              },
+              {
+                "id": "ex-thu-2-1789762951849",
+                "name": "Standing Calf Raises & Ankle Mobility",
+                "category": "strength",
+                "durationMinutes": 5,
+                "intensity": "Low",
+                "targetHeartRate": "95-105 bpm",
+                "estimatedCalorieBurn": 10,
+                "description": "2 sets of 12 controlled calf raises standing on flat ground, holding a counter for balance.",
+                "equipmentNeeded": "None",
+                "warmup": "Ankle rotations.",
+                "cooldown": "Calf stretch against the wall.",
+                "safetyTip": "Raise and lower on a 2-second count for maximum tendon adaptation."
+              }
+            ],
+            "wellnessNote": "Endurance workouts boost capillary density and mitochondria function."
+          },
+          {
+            "day": "Friday",
+            "focusTitle": "Full Body Calisthenics Circuit",
+            "isRestDay": false,
+            "totalDurationMinutes": 25,
+            "estimatedCalorieBurn": 80,
+            "routine": [
+              {
+                "id": "ex-fri-1-1789762951849",
+                "name": "Doorframe Rows, Push-Ups & Step-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm",
+                "estimatedCalorieBurn": 48,
+                "description": "3 rounds of 10 doorframe rows, 8 push-ups, and 10 alternating step-ups on a sturdy step.",
+                "equipmentNeeded": "Light resistance band or two 1-liter water bottles",
+                "warmup": "Arm circles and torso twists for 2 minutes.",
+                "cooldown": "Chest doorway stretch and upper back stretch.",
+                "safetyTip": "Keep shoulders pulled down and back away from your ears."
+              },
+              {
+                "id": "ex-fri-2-1789762951849",
+                "name": "Core Bracing & Deadbugs",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 23,
+                "description": "Lying on back, alternate extending opposite arm and leg while pressing lower back flat into the floor (2 sets of 8 reps per side).",
+                "equipmentNeeded": "Yoga mat",
+                "warmup": "Pelvic tilts.",
+                "cooldown": "Full body pencil stretch on mat.",
+                "safetyTip": "If your lower back arches off the mat, reduce the range of motion of your legs."
+              }
+            ],
+            "wellnessNote": "Consistent core strength prevents lower back fatigue during daily work."
+          },
+          {
+            "day": "Saturday",
+            "focusTitle": "Eco-Commute Nature Walk or Green Exploration",
+            "isRestDay": false,
+            "totalDurationMinutes": 45,
+            "estimatedCalorieBurn": 131,
+            "routine": [
+              {
+                "id": "ex-sat-1-1789762951849",
+                "name": "Nature Trail Walk / Low-Carbon Transit Stroll",
+                "category": "cardio",
+                "durationMinutes": 45,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-125 bpm",
+                "estimatedCalorieBurn": 131,
+                "description": "Continuous relaxed outdoor walk in a local park, greenway, or walking errand, taking in natural sunlight and fresh air.",
+                "equipmentNeeded": "Walking shoes & water bottle",
+                "warmup": "3 minutes of slow pacing.",
+                "cooldown": "Gentle standing quad and hamstring stretches.",
+                "safetyTip": "Stay on established paths and wear sunscreen for outdoor sessions."
+              }
+            ],
+            "wellnessNote": "Exercising in green outdoor spaces reduces stress biomarkers by up to 28%."
+          },
+          {
+            "day": "Sunday",
+            "focusTitle": "Full Body Restorative Yoga & Sleep Prep",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 35,
+            "routine": [
+              {
+                "id": "ex-sun-1-1789762951849",
+                "name": "Gentle Evening Yoga & Diaphragmatic Breathwork",
+                "category": "flexibility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "80-95 bpm",
+                "estimatedCalorieBurn": 35,
+                "description": "Gentle seated forward fold, butterfly pose, legs-up-the-wall pose (5 minutes), and 5 minutes of 4-7-8 relaxing breathing.",
+                "equipmentNeeded": "Yoga mat & comfortable loose clothing",
+                "warmup": "Gentle neck and shoulder rolls.",
+                "cooldown": "Savasana relaxation pose.",
+                "safetyTip": "Focus on slow nasal breathing; allow muscles to release without tension."
+              }
+            ],
+            "wellnessNote": "Good sleep tonight establishes positive metabolic rhythm for the coming week."
+          }
+        ],
+        "weeklyMilestones": [
+          "Complete at least 5 planned activity sessions this week.",
+          "Accumulate a minimum of 150 active movement minutes across the 7 days.",
+          "Burn an estimated 577 active kcal while maintaining safe joint alignment."
+        ],
+        "disclaimer": "This is an AI-generated suggestion, not medical advice. Consult a professional before starting any new fitness routine, especially if you have existing health conditions."
+      },
+      "reminderSettings": {
+        "globalEnabled": true,
+        "soundEnabled": true,
+        "browserNotificationsEnabled": false,
+        "reminders": {
+          "breakfast": {
+            "id": "breakfast",
+            "label": "Breakfast Reminder",
+            "time": "08:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Morning sustenance & hydration"
+          },
+          "morning_snack": {
+            "id": "morning_snack",
+            "label": "Mid-Morning Snack",
+            "time": "10:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Focus boost & healthy fats"
+          },
+          "lunch": {
+            "id": "lunch",
+            "label": "Lunch Reminder",
+            "time": "13:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Core midday metabolic fuel"
+          },
+          "afternoon_snack": {
+            "id": "afternoon_snack",
+            "label": "Afternoon Snack",
+            "time": "16:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Clean energy refuel"
+          },
+          "dinner": {
+            "id": "dinner",
+            "label": "Dinner Reminder",
+            "time": "20:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Restorative evening meal"
+          },
+          "activity": {
+            "id": "activity",
+            "label": "Fitness Activity Session",
+            "time": "18:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Scheduled movement & exercise routine"
+          }
+        },
+        "lastFiredMap": {}
+      }
+    },
+    {
+      "id": "usr-1789761887203-u41jd",
+      "phoneNumber": "+15552661453",
+      "normalizedPhone": "15552661453",
+      "name": "David Kim",
+      "heightCm": 178,
+      "weightKg": 76,
+      "heightUnit": "cm",
+      "weightUnit": "kg",
+      "dietPreference": "omnivore",
+      "fitnessGoal": "muscle_gain",
+      "isProfileComplete": true,
+      "dietPlan": {
+        "id": "diet-1789761887216-kx57uq",
+        "generatedAt": "2026-09-18T20:04:47.216Z",
+        "bmi": 24,
+        "bmiCategory": "Normal weight",
+        "bmrCalories": 1738,
+        "tdeeCalories": 2390,
+        "targetCalories": 2749,
+        "macroSplit": {
+          "proteinG": 206,
+          "proteinPct": 30,
+          "carbsG": 309,
+          "carbsPct": 45,
+          "fatsG": 76,
+          "fatsPct": 25
+        },
+        "hydrationTargetLiters": 2.7,
+        "meals": {
+          "breakfast": {
+            "name": "Pasture-Raised Poached Eggs & Wilted Greens",
+            "title": "Nutrient-Dense Morning Fuel",
+            "description": "Two poached pasture-raised eggs served over garlic-sauteed baby kale and roasted cherry tomatoes on sprouted grain toast.",
+            "portion": "1 plate (280g)",
+            "calories": 715,
+            "proteinG": 58,
+            "carbsG": 74,
+            "fatsG": 21,
+            "ecoScore": "A",
+            "carbonKg": 0.38,
+            "ingredients": [
+              "Pasture Eggs",
+              "Baby Kale",
+              "Cherry Tomatoes",
+              "Sprouted Grain Toast",
+              "Extra Virgin Olive Oil"
+            ],
+            "tips": "Eggs from local farms reduce transit emissions while delivering lutein and choline.",
+            "id": "meal-b-1789761887216",
+            "category": "breakfast"
+          },
+          "morningSnack": {
+            "name": "Raw California Walnuts & Honeycrisp Apple Slices",
+            "title": "Brain-Boosting Morning Refuel",
+            "description": "Handful of unsalted raw walnuts paired with crisp, locally harvested organic apple slices sprinkled with Ceylon cinnamon.",
+            "portion": "1 serving (140g)",
+            "calories": 275,
+            "proteinG": 16,
+            "carbsG": 37,
+            "fatsG": 9,
+            "ecoScore": "A+",
+            "carbonKg": 0.08,
+            "ingredients": [
+              "Raw Walnuts",
+              "Organic Apple",
+              "Ceylon Cinnamon"
+            ],
+            "tips": "Polyphenols in apple peels protect gut microbiota and dampen mid-morning oxidative stress.",
+            "id": "meal-ms-1789761887216",
+            "category": "morning_snack"
+          },
+          "lunch": {
+            "name": "Grilled Free-Range Herb Chicken & Roasted Sweet Potato",
+            "title": "Lean Protein & Complex Carbs",
+            "description": "Marinated rosemary chicken breast with roasted thyme sweet potatoes, steamed broccolini, and a light balsamic reduction.",
+            "portion": "1 plate (360g)",
+            "calories": 907,
+            "proteinG": 78,
+            "carbsG": 87,
+            "fatsG": 18,
+            "ecoScore": "B",
+            "carbonKg": 0.65,
+            "ingredients": [
+              "Free-Range Chicken Breast",
+              "Sweet Potatoes",
+              "Broccolini",
+              "Rosemary & Garlic",
+              "Balsamic"
+            ],
+            "tips": "Choosing free-range chicken over beef slashes the meal carbon footprint by over 75%.",
+            "id": "meal-l-1789761887216",
+            "category": "lunch"
+          },
+          "afternoonSnack": {
+            "name": "Steamed Edamame with Coarse Sea Salt & Matcha Tea",
+            "title": "Afternoon Focus & Clean Protein",
+            "description": "Fresh organic edamame pods lightly steamed with flaky Celtic sea salt, served alongside antioxidant-rich Japanese ceremonial matcha.",
+            "portion": "1 bowl (160g)",
+            "calories": 247,
+            "proteinG": 21,
+            "carbsG": 25,
+            "fatsG": 6,
+            "ecoScore": "A+",
+            "carbonKg": 0.09,
+            "ingredients": [
+              "Edamame Pods",
+              "Flaky Sea Salt",
+              "Ceremonial Matcha"
+            ],
+            "tips": "L-theanine in matcha works synergistically with natural amino acids to sharpen mental focus.",
+            "id": "meal-as-1789761887216",
+            "category": "afternoon_snack"
+          },
+          "dinner": {
+            "name": "Wild Salmon Fillet with Steamed Asparagus & Quinoa",
+            "title": "Cardio-Protective Clean Seafood Dinner",
+            "description": "Pan-seared Alaskan wild salmon topped with dill butter, served with grilled asparagus spears and warm lemon parsley quinoa.",
+            "portion": "1 plate (350g)",
+            "calories": 632,
+            "proteinG": 62,
+            "carbsG": 68,
+            "fatsG": 21,
+            "ecoScore": "A",
+            "carbonKg": 0.48,
+            "ingredients": [
+              "Wild Alaskan Salmon",
+              "Asparagus",
+              "Lemon Quinoa",
+              "Fresh Dill",
+              "Cold Pressed Olive Oil"
+            ],
+            "tips": "High EPA/DHA fatty acids lower nocturnal inflammation and promote deep restorative sleep.",
+            "id": "meal-d-1789761887216",
+            "category": "dinner"
+          }
+        },
+        "weeklyOverview": [
+          {
+            "day": "Monday",
+            "focus": "Plant-Forward Foundation",
+            "calorieTarget": 2749,
+            "highlight": "Quinoa & Lentil Power Bowl",
+            "ecoTip": "Cutting red meat today saves ~4.2 kg CO₂."
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Metabolic & Fiber Boost",
+            "calorieTarget": 2749,
+            "highlight": "Tempeh Stir-Fry & Steamed Greens",
+            "ecoTip": "Fermented proteins nurture microbiome diversity."
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Antioxidant & Recovery",
+            "calorieTarget": 2749,
+            "highlight": "Berry & Walnut Superfood Mix",
+            "ecoTip": "Locally grown berries have 60% lower transit emissions."
+          },
+          {
+            "day": "Thursday",
+            "focus": "Clean Lean Nutrition",
+            "calorieTarget": 2749,
+            "highlight": "Golden Sweet Potato Dal",
+            "ecoTip": "Root vegetables require minimal irrigation."
+          },
+          {
+            "day": "Friday",
+            "focus": "Sustained Vitality",
+            "calorieTarget": 2749,
+            "highlight": "Mediterranean Chickpea Platter",
+            "ecoTip": "Plant legumes naturally fix nitrogen into soils."
+          },
+          {
+            "day": "Saturday",
+            "focus": "Mindful Seasonal Dining",
+            "calorieTarget": 2886,
+            "highlight": "Chef Wild Harvest Medley",
+            "ecoTip": "Dining seasonally reduces cold-storage emissions."
+          },
+          {
+            "day": "Sunday",
+            "focus": "Digestive Reset & Meal Prep",
+            "calorieTarget": 2612,
+            "highlight": "Hydrating Green Detox Soup",
+            "ecoTip": "Batch cooking lowers kitchen energy consumption by 35%."
+          }
+        ],
+        "ecoFootprintDailyKg": 1.68,
+        "ecoSavingsPct": 54,
+        "ecoTip": "By following this omnivore plan, your daily food emissions are only 1.68 kg CO₂/day — 54% lower than the national benchmark!",
+        "disclaimer": "This diet plan is an AI-generated general wellness suggestion based on user-provided metrics and is not professional medical, nutritional, or clinical advice. Consult a licensed healthcare provider or registered dietitian before making significant dietary changes."
+      },
+      "passwordHash": "85e3344923ef30374afa4f547cc6a0b0daa80cf4a90e5d0cb554bdf0b049a3632821187dae5c507f6ae65ecc225557dfde74f5849baee98ab1b6cd496b93cc93",
+      "salt": "127e433a09c819c5c6106d005c230ff7",
+      "weeklyTargetKg": 50,
+      "createdAt": "2026-09-18T20:04:47.203Z",
+      "activityPlan": {
+        "id": "actplan-1789762951849-kjp1ds",
+        "generatedAt": "2026-09-18T20:22:31.849Z",
+        "weightKg": 76,
+        "heightCm": 178,
+        "bmi": 24,
+        "bmiCategory": "Normal weight",
+        "fitnessLevel": "Progressive Functional Calisthenics",
+        "recommendedDaysPerWeek": 5,
+        "weeklyCalorieBurnEstimate": 755,
+        "introSummary": "Based on your current weight (76 kg, BMI 24), here's a personalized, beginner-safe weekly activity plan to help you build functional fitness and stamina.",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focusTitle": "Morning Tempo Brisk Walk & Core Warmup",
+            "isRestDay": false,
+            "totalDurationMinutes": 35,
+            "estimatedCalorieBurn": 125,
+            "routine": [
+              {
+                "id": "ex-mon-1-1789762951849",
+                "name": "Brisk Cadence Walking & Light Jog Intervals",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm (Conversational pace)",
+                "estimatedCalorieBurn": 95,
+                "description": "Comfortable steady-paced walking with 30-second light jog intervals every 5 minutes.",
+                "equipmentNeeded": "Comfortable supportive walking shoes",
+                "warmup": "2 minutes of ankle circles, hip openers, and slow gentle pacing.",
+                "cooldown": "3 minutes of slow walking and standing calf/quad stretches.",
+                "safetyTip": "Maintain upright posture; avoid leaning forward to minimize lower back pressure."
+              },
+              {
+                "id": "ex-mon-2-1789762951849",
+                "name": "Standing Core & Pelvic Alignment",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 27,
+                "description": "Controlled standing pelvic tilts, abdominal bracing, and gentle high-knee march holds.",
+                "equipmentNeeded": "None (wall or chair for light balance support)",
+                "warmup": "Side-to-side gentle torso rotations.",
+                "cooldown": "Slow deep diaphragm breathing.",
+                "safetyTip": "Engage core gently without holding your breath."
+              }
+            ],
+            "wellnessNote": "Hydrate with at least 500ml of water throughout the morning."
+          },
+          {
+            "day": "Tuesday",
+            "focusTitle": "Functional Lower Body & Core Strength",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 114,
+            "routine": [
+              {
+                "id": "ex-tue-1-1789762951849",
+                "name": "Bodyweight Air Squats & Incline Push-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 63,
+                "description": "3 sets of 12 full air squats + 10 incline push-ups + 20-second plank hold.",
+                "equipmentNeeded": "Sturdy chair or stable wall",
+                "warmup": "Arm swings and unweighted knee lifts for 2 minutes.",
+                "cooldown": "Seated hamstring stretch and chest opening stretch.",
+                "safetyTip": "Ensure knees stay aligned over your second toe; do not let knees collapse inward."
+              },
+              {
+                "id": "ex-tue-2-1789762951849",
+                "name": "Glute Bridges & Seated Spinal Twist",
+                "category": "mobility",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "90-105 bpm",
+                "estimatedCalorieBurn": 27,
+                "description": "Lying on a soft yoga mat, press through heels to raise hips into bridge (2 sets of 10 reps), followed by seated spine twists.",
+                "equipmentNeeded": "Yoga mat or carpet",
+                "warmup": "Cat-Cow stretch on hands and knees.",
+                "cooldown": "Child’s pose hold for 60 seconds.",
+                "safetyTip": "Squeeze glutes at the top of the bridge without arching your lower back excessively."
+              }
+            ],
+            "wellnessNote": "Muscle recovery takes 24-48 hours; prioritize quality protein at lunch."
+          },
+          {
+            "day": "Wednesday",
+            "focusTitle": "Active Recovery & Mindful Mobility",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 46,
+            "routine": [
+              {
+                "id": "ex-wed-1-1789762951849",
+                "name": "Gentle Restorative Flow & Neck/Shoulder Release",
+                "category": "mobility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "85-100 bpm",
+                "estimatedCalorieBurn": 46,
+                "description": "A soothing sequence of neck rolls, shoulder shrugs, seated side bends, and 10 minutes of easy strolling outdoors.",
+                "equipmentNeeded": "Yoga mat (optional)",
+                "warmup": "Deep diaphragmatic breathing in a comfortable seated position.",
+                "cooldown": "Lying supine hamstring stretch with towel support.",
+                "safetyTip": "Never bounce in a stretch; hold each position gently for 20-30 seconds."
+              }
+            ],
+            "wellnessNote": "Rest days allow muscle tissue to rebuild stronger and reduce cortisol levels."
+          },
+          {
+            "day": "Thursday",
+            "focusTitle": "Tempo Cardio & Interval Walk",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 148,
+            "routine": [
+              {
+                "id": "ex-thu-1-1789762951849",
+                "name": "Brisk Outdoor Cycling or Incline Walk",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 124,
+                "description": "Moderate paced cycling on flat/rolling terrain or a 3-degree treadmill incline walk.",
+                "equipmentNeeded": "Stationary bike, outdoor cycle, or walking path",
+                "warmup": "3 minutes of zero-resistance gentle pedaling or casual walking.",
+                "cooldown": "2 minutes of easy pacing and standing quad stretches.",
+                "safetyTip": "Adjust saddle height so your knee has a slight 10-15 degree bend at the bottom of the stroke."
+              },
+              {
+                "id": "ex-thu-2-1789762951849",
+                "name": "Standing Calf Raises & Ankle Mobility",
+                "category": "strength",
+                "durationMinutes": 5,
+                "intensity": "Low",
+                "targetHeartRate": "95-105 bpm",
+                "estimatedCalorieBurn": 13,
+                "description": "2 sets of 12 controlled calf raises standing on flat ground, holding a counter for balance.",
+                "equipmentNeeded": "None",
+                "warmup": "Ankle rotations.",
+                "cooldown": "Calf stretch against the wall.",
+                "safetyTip": "Raise and lower on a 2-second count for maximum tendon adaptation."
+              }
+            ],
+            "wellnessNote": "Endurance workouts boost capillary density and mitochondria function."
+          },
+          {
+            "day": "Friday",
+            "focusTitle": "Full Body Calisthenics Circuit",
+            "isRestDay": false,
+            "totalDurationMinutes": 25,
+            "estimatedCalorieBurn": 105,
+            "routine": [
+              {
+                "id": "ex-fri-1-1789762951849",
+                "name": "Doorframe Rows, Push-Ups & Step-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm",
+                "estimatedCalorieBurn": 63,
+                "description": "3 rounds of 10 doorframe rows, 8 push-ups, and 10 alternating step-ups on a sturdy step.",
+                "equipmentNeeded": "Light resistance band or two 1-liter water bottles",
+                "warmup": "Arm circles and torso twists for 2 minutes.",
+                "cooldown": "Chest doorway stretch and upper back stretch.",
+                "safetyTip": "Keep shoulders pulled down and back away from your ears."
+              },
+              {
+                "id": "ex-fri-2-1789762951849",
+                "name": "Core Bracing & Deadbugs",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 30,
+                "description": "Lying on back, alternate extending opposite arm and leg while pressing lower back flat into the floor (2 sets of 8 reps per side).",
+                "equipmentNeeded": "Yoga mat",
+                "warmup": "Pelvic tilts.",
+                "cooldown": "Full body pencil stretch on mat.",
+                "safetyTip": "If your lower back arches off the mat, reduce the range of motion of your legs."
+              }
+            ],
+            "wellnessNote": "Consistent core strength prevents lower back fatigue during daily work."
+          },
+          {
+            "day": "Saturday",
+            "focusTitle": "Eco-Commute Nature Walk or Green Exploration",
+            "isRestDay": false,
+            "totalDurationMinutes": 45,
+            "estimatedCalorieBurn": 171,
+            "routine": [
+              {
+                "id": "ex-sat-1-1789762951849",
+                "name": "Nature Trail Walk / Low-Carbon Transit Stroll",
+                "category": "cardio",
+                "durationMinutes": 45,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-125 bpm",
+                "estimatedCalorieBurn": 171,
+                "description": "Continuous relaxed outdoor walk in a local park, greenway, or walking errand, taking in natural sunlight and fresh air.",
+                "equipmentNeeded": "Walking shoes & water bottle",
+                "warmup": "3 minutes of slow pacing.",
+                "cooldown": "Gentle standing quad and hamstring stretches.",
+                "safetyTip": "Stay on established paths and wear sunscreen for outdoor sessions."
+              }
+            ],
+            "wellnessNote": "Exercising in green outdoor spaces reduces stress biomarkers by up to 28%."
+          },
+          {
+            "day": "Sunday",
+            "focusTitle": "Full Body Restorative Yoga & Sleep Prep",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 46,
+            "routine": [
+              {
+                "id": "ex-sun-1-1789762951849",
+                "name": "Gentle Evening Yoga & Diaphragmatic Breathwork",
+                "category": "flexibility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "80-95 bpm",
+                "estimatedCalorieBurn": 46,
+                "description": "Gentle seated forward fold, butterfly pose, legs-up-the-wall pose (5 minutes), and 5 minutes of 4-7-8 relaxing breathing.",
+                "equipmentNeeded": "Yoga mat & comfortable loose clothing",
+                "warmup": "Gentle neck and shoulder rolls.",
+                "cooldown": "Savasana relaxation pose.",
+                "safetyTip": "Focus on slow nasal breathing; allow muscles to release without tension."
+              }
+            ],
+            "wellnessNote": "Good sleep tonight establishes positive metabolic rhythm for the coming week."
+          }
+        ],
+        "weeklyMilestones": [
+          "Complete at least 5 planned activity sessions this week.",
+          "Accumulate a minimum of 150 active movement minutes across the 7 days.",
+          "Burn an estimated 755 active kcal while maintaining safe joint alignment."
+        ],
+        "disclaimer": "This is an AI-generated suggestion, not medical advice. Consult a professional before starting any new fitness routine, especially if you have existing health conditions."
+      },
+      "reminderSettings": {
+        "globalEnabled": true,
+        "soundEnabled": true,
+        "browserNotificationsEnabled": false,
+        "reminders": {
+          "breakfast": {
+            "id": "breakfast",
+            "label": "Breakfast Reminder",
+            "time": "08:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Morning sustenance & hydration"
+          },
+          "morning_snack": {
+            "id": "morning_snack",
+            "label": "Mid-Morning Snack",
+            "time": "10:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Focus boost & healthy fats"
+          },
+          "lunch": {
+            "id": "lunch",
+            "label": "Lunch Reminder",
+            "time": "13:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Core midday metabolic fuel"
+          },
+          "afternoon_snack": {
+            "id": "afternoon_snack",
+            "label": "Afternoon Snack",
+            "time": "16:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Clean energy refuel"
+          },
+          "dinner": {
+            "id": "dinner",
+            "label": "Dinner Reminder",
+            "time": "20:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Restorative evening meal"
+          },
+          "activity": {
+            "id": "activity",
+            "label": "Fitness Activity Session",
+            "time": "18:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Scheduled movement & exercise routine"
+          }
+        },
+        "lastFiredMap": {}
+      }
+    },
+    {
+      "id": "usr-1789762965571-zcw22",
+      "phoneNumber": "+1 (555) 890-7200",
+      "normalizedPhone": "15558907200",
+      "name": "Emma Watson",
+      "heightCm": 165,
+      "weightKg": 55,
+      "heightUnit": "cm",
+      "weightUnit": "kg",
+      "dietPreference": "vegan",
+      "fitnessGoal": "eco_wellness",
+      "isProfileComplete": true,
+      "dietPlan": {
+        "id": "diet-1789762965574-xy1urv",
+        "generatedAt": "2026-09-18T20:22:45.574Z",
+        "bmi": 20.2,
+        "bmiCategory": "Normal weight",
+        "bmrCalories": 1446,
+        "tdeeCalories": 1988,
+        "targetCalories": 1988,
+        "macroSplit": {
+          "proteinG": 124,
+          "proteinPct": 25,
+          "carbsG": 249,
+          "carbsPct": 50,
+          "fatsG": 55,
+          "fatsPct": 25
+        },
+        "hydrationTargetLiters": 1.9,
+        "meals": {
+          "breakfast": {
+            "name": "Turmeric Tofu Scramble & Avocado Toast",
+            "title": "Plant Protein & Healthy Fats",
+            "description": "Pan-seared sprouted organic tofu seasoned with turmeric, nutritional yeast, and baby spinach served atop whole-grain artisan sourdough with sliced avocado.",
+            "portion": "1 plate (300g)",
+            "calories": 537,
+            "proteinG": 32,
+            "carbsG": 70,
+            "fatsG": 15,
+            "ecoScore": "A+",
+            "carbonKg": 0.22,
+            "ingredients": [
+              "Sprouted Tofu",
+              "Baby Spinach",
+              "Sourdough Bread",
+              "Avocado",
+              "Nutritional Yeast"
+            ],
+            "tips": "Sprouted tofu provides complete bioavailable amino acids with minimal carbon footprint.",
+            "id": "meal-b-1789762965574",
+            "category": "breakfast"
+          },
+          "morningSnack": {
+            "name": "Raw California Walnuts & Honeycrisp Apple Slices",
+            "title": "Brain-Boosting Morning Refuel",
+            "description": "Handful of unsalted raw walnuts paired with crisp, locally harvested organic apple slices sprinkled with Ceylon cinnamon.",
+            "portion": "1 serving (140g)",
+            "calories": 199,
+            "proteinG": 10,
+            "carbsG": 30,
+            "fatsG": 7,
+            "ecoScore": "A+",
+            "carbonKg": 0.08,
+            "ingredients": [
+              "Raw Walnuts",
+              "Organic Apple",
+              "Ceylon Cinnamon"
+            ],
+            "tips": "Polyphenols in apple peels protect gut microbiota and dampen mid-morning oxidative stress.",
+            "id": "meal-ms-1789762965574",
+            "category": "morning_snack"
+          },
+          "lunch": {
+            "name": "Golden Lentil & Sweet Potato Coconut Curry",
+            "title": "Ayurvedic Anti-Inflammatory Lunch",
+            "description": "Simmered yellow split lentils, tender Japanese sweet potatoes, and organic coconut milk infused with fresh ginger, garlic, turmeric, served with brown basmati.",
+            "portion": "1 deep bowl (400g)",
+            "calories": 656,
+            "proteinG": 37,
+            "carbsG": 90,
+            "fatsG": 14,
+            "ecoScore": "A+",
+            "carbonKg": 0.24,
+            "ingredients": [
+              "Yellow Lentils",
+              "Sweet Potato",
+              "Coconut Milk",
+              "Turmeric",
+              "Brown Basmati Rice"
+            ],
+            "tips": "Curcumin combined with healthy lipids enhances anti-inflammatory systemic absorption.",
+            "id": "meal-l-1789762965574",
+            "category": "lunch"
+          },
+          "afternoonSnack": {
+            "name": "Steamed Edamame with Coarse Sea Salt & Matcha Tea",
+            "title": "Afternoon Focus & Clean Protein",
+            "description": "Fresh organic edamame pods lightly steamed with flaky Celtic sea salt, served alongside antioxidant-rich Japanese ceremonial matcha.",
+            "portion": "1 bowl (160g)",
+            "calories": 179,
+            "proteinG": 12,
+            "carbsG": 20,
+            "fatsG": 4,
+            "ecoScore": "A+",
+            "carbonKg": 0.09,
+            "ingredients": [
+              "Edamame Pods",
+              "Flaky Sea Salt",
+              "Ceremonial Matcha"
+            ],
+            "tips": "L-theanine in matcha works synergistically with natural amino acids to sharpen mental focus.",
+            "id": "meal-as-1789762965574",
+            "category": "afternoon_snack"
+          },
+          "dinner": {
+            "name": "Moroccan Chickpea & Roasted Vegetable Tagine",
+            "title": "Warm Spiced Slow-Simmered Comfort",
+            "description": "Slow-cooked stew of chickpeas, butternut squash, zucchini, and dried apricots in a fragrant cumin-coriander broth, served with whole-wheat couscous.",
+            "portion": "1 large bowl (400g)",
+            "calories": 457,
+            "proteinG": 32,
+            "carbsG": 70,
+            "fatsG": 14,
+            "ecoScore": "A+",
+            "carbonKg": 0.25,
+            "ingredients": [
+              "Chickpeas",
+              "Butternut Squash",
+              "Zucchini",
+              "Apricots",
+              "Whole-Wheat Couscous"
+            ],
+            "tips": "Slow-simmered spices stimulate thermogenesis and ease digestive transit before sleep.",
+            "id": "meal-d-1789762965574",
+            "category": "dinner"
+          }
+        },
+        "weeklyOverview": [
+          {
+            "day": "Monday",
+            "focus": "Plant-Forward Foundation",
+            "calorieTarget": 1988,
+            "highlight": "Quinoa & Lentil Power Bowl",
+            "ecoTip": "Cutting red meat today saves ~4.2 kg CO₂."
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Metabolic & Fiber Boost",
+            "calorieTarget": 1988,
+            "highlight": "Tempeh Stir-Fry & Steamed Greens",
+            "ecoTip": "Fermented proteins nurture microbiome diversity."
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Antioxidant & Recovery",
+            "calorieTarget": 1988,
+            "highlight": "Berry & Walnut Superfood Mix",
+            "ecoTip": "Locally grown berries have 60% lower transit emissions."
+          },
+          {
+            "day": "Thursday",
+            "focus": "Clean Lean Nutrition",
+            "calorieTarget": 1988,
+            "highlight": "Golden Sweet Potato Dal",
+            "ecoTip": "Root vegetables require minimal irrigation."
+          },
+          {
+            "day": "Friday",
+            "focus": "Sustained Vitality",
+            "calorieTarget": 1988,
+            "highlight": "Mediterranean Chickpea Platter",
+            "ecoTip": "Plant legumes naturally fix nitrogen into soils."
+          },
+          {
+            "day": "Saturday",
+            "focus": "Mindful Seasonal Dining",
+            "calorieTarget": 2087,
+            "highlight": "Chef Wild Harvest Medley",
+            "ecoTip": "Dining seasonally reduces cold-storage emissions."
+          },
+          {
+            "day": "Sunday",
+            "focus": "Digestive Reset & Meal Prep",
+            "calorieTarget": 1889,
+            "highlight": "Hydrating Green Detox Soup",
+            "ecoTip": "Batch cooking lowers kitchen energy consumption by 35%."
+          }
+        ],
+        "ecoFootprintDailyKg": 0.88,
+        "ecoSavingsPct": 76,
+        "ecoTip": "By following this vegan plan, your daily food emissions are only 0.88 kg CO₂/day — 76% lower than the national benchmark!",
+        "disclaimer": "This diet plan is an AI-generated general wellness suggestion based on user-provided metrics and is not professional medical, nutritional, or clinical advice. Consult a licensed healthcare provider or registered dietitian before making significant dietary changes."
+      },
+      "activityPlan": {
+        "id": "actplan-1789762965574-fe2bkm",
+        "generatedAt": "2026-09-18T20:22:45.574Z",
+        "weightKg": 55,
+        "heightCm": 165,
+        "bmi": 20.2,
+        "bmiCategory": "Normal weight",
+        "fitnessLevel": "Beginner / Moderate Intensity",
+        "recommendedDaysPerWeek": 4,
+        "weeklyCalorieBurnEstimate": 547,
+        "introSummary": "Based on your current weight (55 kg, BMI 20.2), here's a personalized, beginner-safe weekly activity plan to help you build functional fitness and stamina.",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focusTitle": "Morning Tempo Brisk Walk & Core Warmup",
+            "isRestDay": false,
+            "totalDurationMinutes": 35,
+            "estimatedCalorieBurn": 91,
+            "routine": [
+              {
+                "id": "ex-mon-1-1789762965574",
+                "name": "Brisk Cadence Walking & Light Jog Intervals",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm (Conversational pace)",
+                "estimatedCalorieBurn": 69,
+                "description": "Comfortable steady-paced walking with 30-second light jog intervals every 5 minutes.",
+                "equipmentNeeded": "Comfortable supportive walking shoes",
+                "warmup": "2 minutes of ankle circles, hip openers, and slow gentle pacing.",
+                "cooldown": "3 minutes of slow walking and standing calf/quad stretches.",
+                "safetyTip": "Maintain upright posture; avoid leaning forward to minimize lower back pressure."
+              },
+              {
+                "id": "ex-mon-2-1789762965574",
+                "name": "Standing Core & Pelvic Alignment",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 19,
+                "description": "Controlled standing pelvic tilts, abdominal bracing, and gentle high-knee march holds.",
+                "equipmentNeeded": "None (wall or chair for light balance support)",
+                "warmup": "Side-to-side gentle torso rotations.",
+                "cooldown": "Slow deep diaphragm breathing.",
+                "safetyTip": "Engage core gently without holding your breath."
+              }
+            ],
+            "wellnessNote": "Hydrate with at least 500ml of water throughout the morning."
+          },
+          {
+            "day": "Tuesday",
+            "focusTitle": "Functional Lower Body & Core Strength",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 83,
+            "routine": [
+              {
+                "id": "ex-tue-1-1789762965574",
+                "name": "Bodyweight Air Squats & Incline Push-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 45,
+                "description": "3 sets of 12 full air squats + 10 incline push-ups + 20-second plank hold.",
+                "equipmentNeeded": "Sturdy chair or stable wall",
+                "warmup": "Arm swings and unweighted knee lifts for 2 minutes.",
+                "cooldown": "Seated hamstring stretch and chest opening stretch.",
+                "safetyTip": "Ensure knees stay aligned over your second toe; do not let knees collapse inward."
+              },
+              {
+                "id": "ex-tue-2-1789762965574",
+                "name": "Glute Bridges & Seated Spinal Twist",
+                "category": "mobility",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "90-105 bpm",
+                "estimatedCalorieBurn": 19,
+                "description": "Lying on a soft yoga mat, press through heels to raise hips into bridge (2 sets of 10 reps), followed by seated spine twists.",
+                "equipmentNeeded": "Yoga mat or carpet",
+                "warmup": "Cat-Cow stretch on hands and knees.",
+                "cooldown": "Child’s pose hold for 60 seconds.",
+                "safetyTip": "Squeeze glutes at the top of the bridge without arching your lower back excessively."
+              }
+            ],
+            "wellnessNote": "Muscle recovery takes 24-48 hours; prioritize quality protein at lunch."
+          },
+          {
+            "day": "Wednesday",
+            "focusTitle": "Active Recovery & Mindful Mobility",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 33,
+            "routine": [
+              {
+                "id": "ex-wed-1-1789762965574",
+                "name": "Gentle Restorative Flow & Neck/Shoulder Release",
+                "category": "mobility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "85-100 bpm",
+                "estimatedCalorieBurn": 33,
+                "description": "A soothing sequence of neck rolls, shoulder shrugs, seated side bends, and 10 minutes of easy strolling outdoors.",
+                "equipmentNeeded": "Yoga mat (optional)",
+                "warmup": "Deep diaphragmatic breathing in a comfortable seated position.",
+                "cooldown": "Lying supine hamstring stretch with towel support.",
+                "safetyTip": "Never bounce in a stretch; hold each position gently for 20-30 seconds."
+              }
+            ],
+            "wellnessNote": "Rest days allow muscle tissue to rebuild stronger and reduce cortisol levels."
+          },
+          {
+            "day": "Thursday",
+            "focusTitle": "Tempo Cardio & Interval Walk",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 107,
+            "routine": [
+              {
+                "id": "ex-thu-1-1789762965574",
+                "name": "Brisk Outdoor Cycling or Incline Walk",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 89,
+                "description": "Moderate paced cycling on flat/rolling terrain or a 3-degree treadmill incline walk.",
+                "equipmentNeeded": "Stationary bike, outdoor cycle, or walking path",
+                "warmup": "3 minutes of zero-resistance gentle pedaling or casual walking.",
+                "cooldown": "2 minutes of easy pacing and standing quad stretches.",
+                "safetyTip": "Adjust saddle height so your knee has a slight 10-15 degree bend at the bottom of the stroke."
+              },
+              {
+                "id": "ex-thu-2-1789762965574",
+                "name": "Standing Calf Raises & Ankle Mobility",
+                "category": "strength",
+                "durationMinutes": 5,
+                "intensity": "Low",
+                "targetHeartRate": "95-105 bpm",
+                "estimatedCalorieBurn": 10,
+                "description": "2 sets of 12 controlled calf raises standing on flat ground, holding a counter for balance.",
+                "equipmentNeeded": "None",
+                "warmup": "Ankle rotations.",
+                "cooldown": "Calf stretch against the wall.",
+                "safetyTip": "Raise and lower on a 2-second count for maximum tendon adaptation."
+              }
+            ],
+            "wellnessNote": "Endurance workouts boost capillary density and mitochondria function."
+          },
+          {
+            "day": "Friday",
+            "focusTitle": "Full Body Calisthenics Circuit",
+            "isRestDay": false,
+            "totalDurationMinutes": 25,
+            "estimatedCalorieBurn": 76,
+            "routine": [
+              {
+                "id": "ex-fri-1-1789762965574",
+                "name": "Doorframe Rows, Push-Ups & Step-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm",
+                "estimatedCalorieBurn": 45,
+                "description": "3 rounds of 10 doorframe rows, 8 push-ups, and 10 alternating step-ups on a sturdy step.",
+                "equipmentNeeded": "Light resistance band or two 1-liter water bottles",
+                "warmup": "Arm circles and torso twists for 2 minutes.",
+                "cooldown": "Chest doorway stretch and upper back stretch.",
+                "safetyTip": "Keep shoulders pulled down and back away from your ears."
+              },
+              {
+                "id": "ex-fri-2-1789762965574",
+                "name": "Core Bracing & Deadbugs",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 22,
+                "description": "Lying on back, alternate extending opposite arm and leg while pressing lower back flat into the floor (2 sets of 8 reps per side).",
+                "equipmentNeeded": "Yoga mat",
+                "warmup": "Pelvic tilts.",
+                "cooldown": "Full body pencil stretch on mat.",
+                "safetyTip": "If your lower back arches off the mat, reduce the range of motion of your legs."
+              }
+            ],
+            "wellnessNote": "Consistent core strength prevents lower back fatigue during daily work."
+          },
+          {
+            "day": "Saturday",
+            "focusTitle": "Eco-Commute Nature Walk or Green Exploration",
+            "isRestDay": false,
+            "totalDurationMinutes": 45,
+            "estimatedCalorieBurn": 124,
+            "routine": [
+              {
+                "id": "ex-sat-1-1789762965574",
+                "name": "Nature Trail Walk / Low-Carbon Transit Stroll",
+                "category": "cardio",
+                "durationMinutes": 45,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-125 bpm",
+                "estimatedCalorieBurn": 124,
+                "description": "Continuous relaxed outdoor walk in a local park, greenway, or walking errand, taking in natural sunlight and fresh air.",
+                "equipmentNeeded": "Walking shoes & water bottle",
+                "warmup": "3 minutes of slow pacing.",
+                "cooldown": "Gentle standing quad and hamstring stretches.",
+                "safetyTip": "Stay on established paths and wear sunscreen for outdoor sessions."
+              }
+            ],
+            "wellnessNote": "Exercising in green outdoor spaces reduces stress biomarkers by up to 28%."
+          },
+          {
+            "day": "Sunday",
+            "focusTitle": "Full Body Restorative Yoga & Sleep Prep",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 33,
+            "routine": [
+              {
+                "id": "ex-sun-1-1789762965574",
+                "name": "Gentle Evening Yoga & Diaphragmatic Breathwork",
+                "category": "flexibility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "80-95 bpm",
+                "estimatedCalorieBurn": 33,
+                "description": "Gentle seated forward fold, butterfly pose, legs-up-the-wall pose (5 minutes), and 5 minutes of 4-7-8 relaxing breathing.",
+                "equipmentNeeded": "Yoga mat & comfortable loose clothing",
+                "warmup": "Gentle neck and shoulder rolls.",
+                "cooldown": "Savasana relaxation pose.",
+                "safetyTip": "Focus on slow nasal breathing; allow muscles to release without tension."
+              }
+            ],
+            "wellnessNote": "Good sleep tonight establishes positive metabolic rhythm for the coming week."
+          }
+        ],
+        "weeklyMilestones": [
+          "Complete at least 4 planned activity sessions this week.",
+          "Accumulate a minimum of 150 active movement minutes across the 7 days.",
+          "Burn an estimated 547 active kcal while maintaining safe joint alignment."
+        ],
+        "disclaimer": "This is an AI-generated suggestion, not medical advice. Consult a professional before starting any new fitness routine, especially if you have existing health conditions."
+      },
+      "passwordHash": "7f15f83119da727ab6347699e0e6cd0bd20a4f0e70b0deb2e40d89c06ee363bff13bea25f80dea5060bb0cbfd3145bbb858d19ffcfa0100263042864d50304e2",
+      "salt": "9ee103bcda5b20fef73afca6dc57f18a",
+      "weeklyTargetKg": 50,
+      "createdAt": "2026-09-18T20:22:45.571Z",
+      "reminderSettings": {
+        "globalEnabled": true,
+        "soundEnabled": true,
+        "browserNotificationsEnabled": false,
+        "reminders": {
+          "breakfast": {
+            "id": "breakfast",
+            "label": "Breakfast Reminder",
+            "time": "08:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Morning sustenance & hydration"
+          },
+          "morning_snack": {
+            "id": "morning_snack",
+            "label": "Mid-Morning Snack",
+            "time": "10:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Focus boost & healthy fats"
+          },
+          "lunch": {
+            "id": "lunch",
+            "label": "Lunch Reminder",
+            "time": "13:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Core midday metabolic fuel"
+          },
+          "afternoon_snack": {
+            "id": "afternoon_snack",
+            "label": "Afternoon Snack",
+            "time": "16:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Clean energy refuel"
+          },
+          "dinner": {
+            "id": "dinner",
+            "label": "Dinner Reminder",
+            "time": "20:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Restorative evening meal"
+          },
+          "activity": {
+            "id": "activity",
+            "label": "Fitness Activity Session",
+            "time": "18:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Scheduled movement & exercise routine"
+          }
+        },
+        "lastFiredMap": {}
+      }
+    },
+    {
+      "id": "usr-1789764263218-8t1mn",
+      "phoneNumber": "+1 (555) 777-8899",
+      "normalizedPhone": "15557778899",
+      "name": "Alarm Tester",
+      "heightCm": 178,
+      "weightKg": 72,
+      "heightUnit": "cm",
+      "weightUnit": "kg",
+      "dietPreference": "vegetarian",
+      "fitnessGoal": "eco_wellness",
+      "isProfileComplete": true,
+      "dietPlan": {
+        "id": "diet-1789764263231-51vyh2",
+        "generatedAt": "2026-09-18T20:44:23.231Z",
+        "bmi": 22.7,
+        "bmiCategory": "Normal weight",
+        "bmrCalories": 1698,
+        "tdeeCalories": 2335,
+        "targetCalories": 2335,
+        "macroSplit": {
+          "proteinG": 146,
+          "proteinPct": 25,
+          "carbsG": 292,
+          "carbsPct": 50,
+          "fatsG": 65,
+          "fatsPct": 25
+        },
+        "hydrationTargetLiters": 2.5,
+        "meals": {
+          "breakfast": {
+            "name": "Organic Rolled Oats & Chia Superfood Bowl",
+            "title": "High-Fiber Antioxidant Breakfast",
+            "description": "Warm steel-cut oats simmered in unsweetened oat milk, topped with chia seeds, wild blueberries, crushed walnuts, and a drizzle of organic maple.",
+            "portion": "1 medium bowl (320g)",
+            "calories": 607,
+            "proteinG": 32,
+            "carbsG": 93,
+            "fatsG": 16,
+            "ecoScore": "A+",
+            "carbonKg": 0.18,
+            "ingredients": [
+              "Rolled Oats",
+              "Oat Milk",
+              "Chia Seeds",
+              "Wild Blueberries",
+              "Raw Walnuts"
+            ],
+            "tips": "Rich in beta-glucan fiber to regulate glucose and sustain morning mental clarity.",
+            "id": "meal-b-1789764263231",
+            "category": "breakfast"
+          },
+          "morningSnack": {
+            "name": "Raw California Walnuts & Honeycrisp Apple Slices",
+            "title": "Brain-Boosting Morning Refuel",
+            "description": "Handful of unsalted raw walnuts paired with crisp, locally harvested organic apple slices sprinkled with Ceylon cinnamon.",
+            "portion": "1 serving (140g)",
+            "calories": 234,
+            "proteinG": 12,
+            "carbsG": 35,
+            "fatsG": 8,
+            "ecoScore": "A+",
+            "carbonKg": 0.08,
+            "ingredients": [
+              "Raw Walnuts",
+              "Organic Apple",
+              "Ceylon Cinnamon"
+            ],
+            "tips": "Polyphenols in apple peels protect gut microbiota and dampen mid-morning oxidative stress.",
+            "id": "meal-ms-1789764263231",
+            "category": "morning_snack"
+          },
+          "lunch": {
+            "name": "Mediterranean Quinoa & Spiced Chickpea Buddha Bowl",
+            "title": "Complete Plant Protein & Micro-Nutrients",
+            "description": "Fluffy tri-color quinoa, paprika-roasted chickpeas, diced Persian cucumbers, Kalamata olives, shredded red cabbage, and lemon-tahini dressing.",
+            "portion": "1 large bowl (380g)",
+            "calories": 747,
+            "proteinG": 47,
+            "carbsG": 99,
+            "fatsG": 18,
+            "ecoScore": "A+",
+            "carbonKg": 0.26,
+            "ingredients": [
+              "Tri-Color Quinoa",
+              "Chickpeas",
+              "Tahini",
+              "Cucumbers",
+              "Kalamata Olives",
+              "Red Cabbage"
+            ],
+            "tips": "Quinoa + chickpeas provide all 9 essential amino acids in a 100% zero-slaughter meal.",
+            "id": "meal-l-1789764263231",
+            "category": "lunch"
+          },
+          "afternoonSnack": {
+            "name": "Steamed Edamame with Coarse Sea Salt & Matcha Tea",
+            "title": "Afternoon Focus & Clean Protein",
+            "description": "Fresh organic edamame pods lightly steamed with flaky Celtic sea salt, served alongside antioxidant-rich Japanese ceremonial matcha.",
+            "portion": "1 bowl (160g)",
+            "calories": 210,
+            "proteinG": 15,
+            "carbsG": 23,
+            "fatsG": 5,
+            "ecoScore": "A+",
+            "carbonKg": 0.09,
+            "ingredients": [
+              "Edamame Pods",
+              "Flaky Sea Salt",
+              "Ceremonial Matcha"
+            ],
+            "tips": "L-theanine in matcha works synergistically with natural amino acids to sharpen mental focus.",
+            "id": "meal-as-1789764263231",
+            "category": "afternoon_snack"
+          },
+          "dinner": {
+            "name": "Crispy Sesame Tempeh & Wok-Tossed Rainbow Greens",
+            "title": "Probiotic Fermented Protein Feast",
+            "description": "Pan-crisped organic soy tempeh glazed in low-sodium tamari and toasted sesame oil, served over wok-seared bok choy, bell peppers, snap peas, and black wild rice.",
+            "portion": "1 large plate (390g)",
+            "calories": 537,
+            "proteinG": 41,
+            "carbsG": 70,
+            "fatsG": 18,
+            "ecoScore": "A+",
+            "carbonKg": 0.28,
+            "ingredients": [
+              "Organic Tempeh",
+              "Bok Choy",
+              "Black Wild Rice",
+              "Snap Peas",
+              "Tamari & Sesame"
+            ],
+            "tips": "Fermented tempeh provides intact gut probiotics and gentle nighttime digestibility.",
+            "id": "meal-d-1789764263231",
+            "category": "dinner"
+          }
+        },
+        "weeklyOverview": [
+          {
+            "day": "Monday",
+            "focus": "Plant-Forward Foundation",
+            "calorieTarget": 2335,
+            "highlight": "Quinoa & Lentil Power Bowl",
+            "ecoTip": "Cutting red meat today saves ~4.2 kg CO₂."
+          },
+          {
+            "day": "Tuesday",
+            "focus": "Metabolic & Fiber Boost",
+            "calorieTarget": 2335,
+            "highlight": "Tempeh Stir-Fry & Steamed Greens",
+            "ecoTip": "Fermented proteins nurture microbiome diversity."
+          },
+          {
+            "day": "Wednesday",
+            "focus": "Antioxidant & Recovery",
+            "calorieTarget": 2335,
+            "highlight": "Berry & Walnut Superfood Mix",
+            "ecoTip": "Locally grown berries have 60% lower transit emissions."
+          },
+          {
+            "day": "Thursday",
+            "focus": "Clean Lean Nutrition",
+            "calorieTarget": 2335,
+            "highlight": "Golden Sweet Potato Dal",
+            "ecoTip": "Root vegetables require minimal irrigation."
+          },
+          {
+            "day": "Friday",
+            "focus": "Sustained Vitality",
+            "calorieTarget": 2335,
+            "highlight": "Mediterranean Chickpea Platter",
+            "ecoTip": "Plant legumes naturally fix nitrogen into soils."
+          },
+          {
+            "day": "Saturday",
+            "focus": "Mindful Seasonal Dining",
+            "calorieTarget": 2452,
+            "highlight": "Chef Wild Harvest Medley",
+            "ecoTip": "Dining seasonally reduces cold-storage emissions."
+          },
+          {
+            "day": "Sunday",
+            "focus": "Digestive Reset & Meal Prep",
+            "calorieTarget": 2218,
+            "highlight": "Hydrating Green Detox Soup",
+            "ecoTip": "Batch cooking lowers kitchen energy consumption by 35%."
+          }
+        ],
+        "ecoFootprintDailyKg": 0.89,
+        "ecoSavingsPct": 76,
+        "ecoTip": "By following this vegetarian plan, your daily food emissions are only 0.89 kg CO₂/day — 76% lower than the national benchmark!",
+        "disclaimer": "This diet plan is an AI-generated general wellness suggestion based on user-provided metrics and is not professional medical, nutritional, or clinical advice. Consult a licensed healthcare provider or registered dietitian before making significant dietary changes."
+      },
+      "activityPlan": {
+        "id": "actplan-1789764263232-3tbgbr",
+        "generatedAt": "2026-09-18T20:44:23.232Z",
+        "weightKg": 72,
+        "heightCm": 178,
+        "bmi": 22.7,
+        "bmiCategory": "Normal weight",
+        "fitnessLevel": "Beginner / Moderate Intensity",
+        "recommendedDaysPerWeek": 4,
+        "weeklyCalorieBurnEstimate": 714,
+        "introSummary": "Based on your current weight (72 kg, BMI 22.7), here's a personalized, beginner-safe weekly activity plan to help you build functional fitness and stamina.",
+        "schedule": [
+          {
+            "day": "Monday",
+            "focusTitle": "Morning Tempo Brisk Walk & Core Warmup",
+            "isRestDay": false,
+            "totalDurationMinutes": 35,
+            "estimatedCalorieBurn": 119,
+            "routine": [
+              {
+                "id": "ex-mon-1-1789764263232",
+                "name": "Brisk Cadence Walking & Light Jog Intervals",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm (Conversational pace)",
+                "estimatedCalorieBurn": 90,
+                "description": "Comfortable steady-paced walking with 30-second light jog intervals every 5 minutes.",
+                "equipmentNeeded": "Comfortable supportive walking shoes",
+                "warmup": "2 minutes of ankle circles, hip openers, and slow gentle pacing.",
+                "cooldown": "3 minutes of slow walking and standing calf/quad stretches.",
+                "safetyTip": "Maintain upright posture; avoid leaning forward to minimize lower back pressure."
+              },
+              {
+                "id": "ex-mon-2-1789764263232",
+                "name": "Standing Core & Pelvic Alignment",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 25,
+                "description": "Controlled standing pelvic tilts, abdominal bracing, and gentle high-knee march holds.",
+                "equipmentNeeded": "None (wall or chair for light balance support)",
+                "warmup": "Side-to-side gentle torso rotations.",
+                "cooldown": "Slow deep diaphragm breathing.",
+                "safetyTip": "Engage core gently without holding your breath."
+              }
+            ],
+            "wellnessNote": "Hydrate with at least 500ml of water throughout the morning."
+          },
+          {
+            "day": "Tuesday",
+            "focusTitle": "Functional Lower Body & Core Strength",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 108,
+            "routine": [
+              {
+                "id": "ex-tue-1-1789764263232",
+                "name": "Bodyweight Air Squats & Incline Push-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 59,
+                "description": "3 sets of 12 full air squats + 10 incline push-ups + 20-second plank hold.",
+                "equipmentNeeded": "Sturdy chair or stable wall",
+                "warmup": "Arm swings and unweighted knee lifts for 2 minutes.",
+                "cooldown": "Seated hamstring stretch and chest opening stretch.",
+                "safetyTip": "Ensure knees stay aligned over your second toe; do not let knees collapse inward."
+              },
+              {
+                "id": "ex-tue-2-1789764263232",
+                "name": "Glute Bridges & Seated Spinal Twist",
+                "category": "mobility",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "90-105 bpm",
+                "estimatedCalorieBurn": 25,
+                "description": "Lying on a soft yoga mat, press through heels to raise hips into bridge (2 sets of 10 reps), followed by seated spine twists.",
+                "equipmentNeeded": "Yoga mat or carpet",
+                "warmup": "Cat-Cow stretch on hands and knees.",
+                "cooldown": "Child’s pose hold for 60 seconds.",
+                "safetyTip": "Squeeze glutes at the top of the bridge without arching your lower back excessively."
+              }
+            ],
+            "wellnessNote": "Muscle recovery takes 24-48 hours; prioritize quality protein at lunch."
+          },
+          {
+            "day": "Wednesday",
+            "focusTitle": "Active Recovery & Mindful Mobility",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 43,
+            "routine": [
+              {
+                "id": "ex-wed-1-1789764263232",
+                "name": "Gentle Restorative Flow & Neck/Shoulder Release",
+                "category": "mobility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "85-100 bpm",
+                "estimatedCalorieBurn": 43,
+                "description": "A soothing sequence of neck rolls, shoulder shrugs, seated side bends, and 10 minutes of easy strolling outdoors.",
+                "equipmentNeeded": "Yoga mat (optional)",
+                "warmup": "Deep diaphragmatic breathing in a comfortable seated position.",
+                "cooldown": "Lying supine hamstring stretch with towel support.",
+                "safetyTip": "Never bounce in a stretch; hold each position gently for 20-30 seconds."
+              }
+            ],
+            "wellnessNote": "Rest days allow muscle tissue to rebuild stronger and reduce cortisol levels."
+          },
+          {
+            "day": "Thursday",
+            "focusTitle": "Tempo Cardio & Interval Walk",
+            "isRestDay": false,
+            "totalDurationMinutes": 30,
+            "estimatedCalorieBurn": 140,
+            "routine": [
+              {
+                "id": "ex-thu-1-1789764263232",
+                "name": "Brisk Outdoor Cycling or Incline Walk",
+                "category": "cardio",
+                "durationMinutes": 25,
+                "intensity": "Moderate",
+                "targetHeartRate": "115-135 bpm",
+                "estimatedCalorieBurn": 117,
+                "description": "Moderate paced cycling on flat/rolling terrain or a 3-degree treadmill incline walk.",
+                "equipmentNeeded": "Stationary bike, outdoor cycle, or walking path",
+                "warmup": "3 minutes of zero-resistance gentle pedaling or casual walking.",
+                "cooldown": "2 minutes of easy pacing and standing quad stretches.",
+                "safetyTip": "Adjust saddle height so your knee has a slight 10-15 degree bend at the bottom of the stroke."
+              },
+              {
+                "id": "ex-thu-2-1789764263232",
+                "name": "Standing Calf Raises & Ankle Mobility",
+                "category": "strength",
+                "durationMinutes": 5,
+                "intensity": "Low",
+                "targetHeartRate": "95-105 bpm",
+                "estimatedCalorieBurn": 13,
+                "description": "2 sets of 12 controlled calf raises standing on flat ground, holding a counter for balance.",
+                "equipmentNeeded": "None",
+                "warmup": "Ankle rotations.",
+                "cooldown": "Calf stretch against the wall.",
+                "safetyTip": "Raise and lower on a 2-second count for maximum tendon adaptation."
+              }
+            ],
+            "wellnessNote": "Endurance workouts boost capillary density and mitochondria function."
+          },
+          {
+            "day": "Friday",
+            "focusTitle": "Full Body Calisthenics Circuit",
+            "isRestDay": false,
+            "totalDurationMinutes": 25,
+            "estimatedCalorieBurn": 99,
+            "routine": [
+              {
+                "id": "ex-fri-1-1789764263232",
+                "name": "Doorframe Rows, Push-Ups & Step-Ups",
+                "category": "strength",
+                "durationMinutes": 15,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-130 bpm",
+                "estimatedCalorieBurn": 59,
+                "description": "3 rounds of 10 doorframe rows, 8 push-ups, and 10 alternating step-ups on a sturdy step.",
+                "equipmentNeeded": "Light resistance band or two 1-liter water bottles",
+                "warmup": "Arm circles and torso twists for 2 minutes.",
+                "cooldown": "Chest doorway stretch and upper back stretch.",
+                "safetyTip": "Keep shoulders pulled down and back away from your ears."
+              },
+              {
+                "id": "ex-fri-2-1789764263232",
+                "name": "Core Bracing & Deadbugs",
+                "category": "strength",
+                "durationMinutes": 10,
+                "intensity": "Low",
+                "targetHeartRate": "95-110 bpm",
+                "estimatedCalorieBurn": 29,
+                "description": "Lying on back, alternate extending opposite arm and leg while pressing lower back flat into the floor (2 sets of 8 reps per side).",
+                "equipmentNeeded": "Yoga mat",
+                "warmup": "Pelvic tilts.",
+                "cooldown": "Full body pencil stretch on mat.",
+                "safetyTip": "If your lower back arches off the mat, reduce the range of motion of your legs."
+              }
+            ],
+            "wellnessNote": "Consistent core strength prevents lower back fatigue during daily work."
+          },
+          {
+            "day": "Saturday",
+            "focusTitle": "Eco-Commute Nature Walk or Green Exploration",
+            "isRestDay": false,
+            "totalDurationMinutes": 45,
+            "estimatedCalorieBurn": 162,
+            "routine": [
+              {
+                "id": "ex-sat-1-1789764263232",
+                "name": "Nature Trail Walk / Low-Carbon Transit Stroll",
+                "category": "cardio",
+                "durationMinutes": 45,
+                "intensity": "Moderate",
+                "targetHeartRate": "110-125 bpm",
+                "estimatedCalorieBurn": 162,
+                "description": "Continuous relaxed outdoor walk in a local park, greenway, or walking errand, taking in natural sunlight and fresh air.",
+                "equipmentNeeded": "Walking shoes & water bottle",
+                "warmup": "3 minutes of slow pacing.",
+                "cooldown": "Gentle standing quad and hamstring stretches.",
+                "safetyTip": "Stay on established paths and wear sunscreen for outdoor sessions."
+              }
+            ],
+            "wellnessNote": "Exercising in green outdoor spaces reduces stress biomarkers by up to 28%."
+          },
+          {
+            "day": "Sunday",
+            "focusTitle": "Full Body Restorative Yoga & Sleep Prep",
+            "isRestDay": true,
+            "totalDurationMinutes": 20,
+            "estimatedCalorieBurn": 43,
+            "routine": [
+              {
+                "id": "ex-sun-1-1789764263232",
+                "name": "Gentle Evening Yoga & Diaphragmatic Breathwork",
+                "category": "flexibility",
+                "durationMinutes": 20,
+                "intensity": "Low",
+                "targetHeartRate": "80-95 bpm",
+                "estimatedCalorieBurn": 43,
+                "description": "Gentle seated forward fold, butterfly pose, legs-up-the-wall pose (5 minutes), and 5 minutes of 4-7-8 relaxing breathing.",
+                "equipmentNeeded": "Yoga mat & comfortable loose clothing",
+                "warmup": "Gentle neck and shoulder rolls.",
+                "cooldown": "Savasana relaxation pose.",
+                "safetyTip": "Focus on slow nasal breathing; allow muscles to release without tension."
+              }
+            ],
+            "wellnessNote": "Good sleep tonight establishes positive metabolic rhythm for the coming week."
+          }
+        ],
+        "weeklyMilestones": [
+          "Complete at least 4 planned activity sessions this week.",
+          "Accumulate a minimum of 150 active movement minutes across the 7 days.",
+          "Burn an estimated 714 active kcal while maintaining safe joint alignment."
+        ],
+        "disclaimer": "This is an AI-generated suggestion, not medical advice. Consult a professional before starting any new fitness routine, especially if you have existing health conditions."
+      },
+      "reminderSettings": {
+        "globalEnabled": true,
+        "soundEnabled": true,
+        "browserNotificationsEnabled": true,
+        "reminders": {
+          "breakfast": {
+            "id": "breakfast",
+            "label": "Breakfast Reminder",
+            "time": "07:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Morning sustenance & hydration"
+          },
+          "morning_snack": {
+            "id": "morning_snack",
+            "label": "Mid-Morning Snack",
+            "time": "10:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Focus boost & healthy fats"
+          },
+          "lunch": {
+            "id": "lunch",
+            "label": "Lunch Reminder",
+            "time": "13:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Core midday metabolic fuel"
+          },
+          "afternoon_snack": {
+            "id": "afternoon_snack",
+            "label": "Afternoon Snack",
+            "time": "16:30",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Clean energy refuel"
+          },
+          "dinner": {
+            "id": "dinner",
+            "label": "Dinner Reminder",
+            "time": "20:00",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Restorative evening meal"
+          },
+          "activity": {
+            "id": "activity",
+            "label": "Fitness Activity Session",
+            "time": "17:45",
+            "enabled": true,
+            "soundEnabled": true,
+            "description": "Scheduled movement & exercise routine"
+          }
+        },
+        "lastFiredMap": {}
+      },
+      "passwordHash": "375f40b7c143add1b9720c9169160ec9431a9861ae862671916f04a98107f1f6da9c0f3ddc416ff8a90dd74b903cc70a6cd7576e17554e159136529632cde205",
+      "salt": "394d2072c50b9f53ce502b92fc72b656",
+      "weeklyTargetKg": 50,
+      "createdAt": "2026-09-18T20:44:23.218Z"
+    }
+  ],
+  "sessions": {
+    "token-usr-alex-01-fdff72cd160bc53058d49163beae9a8245ec1fd66e0b599a": {
+      "userId": "usr-alex-01",
+      "createdAt": "2026-09-18T19:50:19.097Z"
+    },
+    "token-usr-1789761019104-y49b0-9d4ecd315e17ff98217d285d8a6a946fe013df285c202200": {
+      "userId": "usr-1789761019104-y49b0",
+      "createdAt": "2026-09-18T19:50:19.105Z"
+    },
+    "token-usr-alex-01-0f44d5911784c882f94e22e40dfd5b2cbf5f6743fc8e07af": {
+      "userId": "usr-alex-01",
+      "createdAt": "2026-09-18T19:50:59.579Z"
+    },
+    "token-usr-1789761059584-vosu7-9d8e8f83f1c8213be907b0741322e2e17041f1830f859bee": {
+      "userId": "usr-1789761059584-vosu7",
+      "createdAt": "2026-09-18T19:50:59.584Z"
+    },
+    "token-usr-1789761887203-u41jd-a933dd7080231170c85bb035468baa2ec42c35fa9ec35947": {
+      "userId": "usr-1789761887203-u41jd",
+      "createdAt": "2026-09-18T20:04:47.204Z"
+    },
+    "token-usr-alex-01-18405bccc5b768c305d43ae930858155f580b7f27eb21e4d": {
+      "userId": "usr-alex-01",
+      "createdAt": "2026-09-18T20:22:23.566Z"
+    },
+    "token-usr-alex-01-d591b53de87605214be0adf55a6072debfe630a15c11beba": {
+      "userId": "usr-alex-01",
+      "createdAt": "2026-09-18T20:22:45.555Z"
+    },
+    "token-usr-1789762965571-zcw22-1e30a1521f30438ee1d71efce78f04490429f9393a8f7861": {
+      "userId": "usr-1789762965571-zcw22",
+      "createdAt": "2026-09-18T20:22:45.571Z"
+    },
+    "token-usr-1789764263218-8t1mn-d307eed5c80472023330652ee2633a7e0a11946893d94698": {
+      "userId": "usr-1789764263218-8t1mn",
+      "createdAt": "2026-09-18T20:44:23.219Z"
+    }
+  },
+  "activities": [
+    {
+      "id": "act-1789763464698",
+      "userId": "usr-alex-01",
+      "category": "car",
+      "quantity": 2,
+      "unit": "km",
+      "emissionsKg": 0.4,
+      "date": "2026-09-19",
+      "createdAt": "2026-09-18T20:31:04.698Z"
+    },
+    {
+      "id": "act-1789763464679",
+      "userId": "usr-alex-01",
+      "category": "car",
+      "quantity": 2,
+      "unit": "km",
+      "emissionsKg": 0.4,
+      "date": "2026-09-19",
+      "createdAt": "2026-09-18T20:31:04.679Z"
+    },
+    {
+      "id": "act-1789763464659",
+      "userId": "usr-alex-01",
+      "category": "car",
+      "quantity": 2,
+      "unit": "km",
+      "emissionsKg": 0.4,
+      "date": "2026-09-19",
+      "createdAt": "2026-09-18T20:31:04.659Z"
+    },
+    {
+      "id": "act-1789763464619",
+      "userId": "usr-alex-01",
+      "category": "car",
+      "quantity": 2,
+      "unit": "km",
+      "emissionsKg": 0.4,
+      "date": "2026-09-19",
+      "createdAt": "2026-09-18T20:31:04.619Z"
+    },
+    {
+      "id": "act-01",
+      "userId": "usr-alex-01",
+      "category": "car",
+      "quantity": 24,
+      "unit": "km",
+      "emissionsKg": 4.8,
+      "date": "2026-09-14",
+      "notes": "Morning & evening commute",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-02",
+      "userId": "usr-alex-01",
+      "category": "electricity",
+      "quantity": 14.5,
+      "unit": "kWh",
+      "emissionsKg": 11.6,
+      "date": "2026-09-14",
+      "notes": "Home power consumption",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-03",
+      "userId": "usr-alex-01",
+      "category": "veg_meal",
+      "quantity": 2,
+      "unit": "meals",
+      "emissionsKg": 1,
+      "date": "2026-09-14",
+      "notes": "Breakfast & lunch",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-04",
+      "userId": "usr-alex-01",
+      "category": "non_veg_meal",
+      "quantity": 1,
+      "unit": "meals",
+      "emissionsKg": 2,
+      "date": "2026-09-14",
+      "notes": "Salmon dinner",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-05",
+      "userId": "usr-alex-01",
+      "category": "bus",
+      "quantity": 18,
+      "unit": "km",
+      "emissionsKg": 1.44,
+      "date": "2026-09-15",
+      "notes": "Metro & city bus transit",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-06",
+      "userId": "usr-alex-01",
+      "category": "electricity",
+      "quantity": 12,
+      "unit": "kWh",
+      "emissionsKg": 9.6,
+      "date": "2026-09-15",
+      "notes": "Daily electricity",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-07",
+      "userId": "usr-alex-01",
+      "category": "veg_meal",
+      "quantity": 3,
+      "unit": "meals",
+      "emissionsKg": 1.5,
+      "date": "2026-09-15",
+      "notes": "Plant-based day",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-08",
+      "userId": "usr-alex-01",
+      "category": "car",
+      "quantity": 32,
+      "unit": "km",
+      "emissionsKg": 6.4,
+      "date": "2026-09-16",
+      "notes": "Client meeting across town",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-09",
+      "userId": "usr-alex-01",
+      "category": "electricity",
+      "quantity": 16,
+      "unit": "kWh",
+      "emissionsKg": 12.8,
+      "date": "2026-09-16",
+      "notes": "Laundry & workstations",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-10",
+      "userId": "usr-alex-01",
+      "category": "non_veg_meal",
+      "quantity": 2,
+      "unit": "meals",
+      "emissionsKg": 4,
+      "date": "2026-09-16",
+      "notes": "Chicken wrap & burger",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-11",
+      "userId": "usr-alex-01",
+      "category": "bus",
+      "quantity": 12,
+      "unit": "km",
+      "emissionsKg": 0.96,
+      "date": "2026-09-17",
+      "notes": "Library commute",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-12",
+      "userId": "usr-alex-01",
+      "category": "veg_meal",
+      "quantity": 2,
+      "unit": "meals",
+      "emissionsKg": 1,
+      "date": "2026-09-17",
+      "notes": "Grain bowl & salad",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-13",
+      "userId": "usr-alex-01",
+      "category": "electricity",
+      "quantity": 13.2,
+      "unit": "kWh",
+      "emissionsKg": 10.56,
+      "date": "2026-09-17",
+      "notes": "Standard home usage",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    },
+    {
+      "id": "act-14",
+      "userId": "usr-alex-01",
+      "category": "flight",
+      "quantity": 120,
+      "unit": "km",
+      "emissionsKg": 30,
+      "date": "2026-09-18",
+      "notes": "Short regional flight",
+      "createdAt": "2026-09-18T19:49:58.150Z"
+    }
+  ]
+}
