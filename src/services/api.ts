@@ -1,6 +1,7 @@
 import { ActivityEntry, WeeklyTarget, ActivityCategory, User, AuthResponse, DietPlan, ActivityPlan, ReminderSettings } from '../types';
 import { getInitialSeedActivities, INITIAL_WEEKLY_TARGET } from '../data/seedData';
 import { calculateEmissions } from './calculator';
+import { generateClientAIDietPlan, generateClientAIFitnessPlan } from './clientPlanEngine';
 
 const API_BASE = '/api';
 
@@ -55,29 +56,32 @@ export const api = {
         body: JSON.stringify({ phoneNumber, password, name })
       });
 
-      const json = await res.json();
-      if (res.ok && json.success) {
-        if (json.token) localStorage.setItem(STORAGE_KEYS.TOKEN, json.token);
-        if (json.user) setLocalData(STORAGE_KEYS.USER, json.user);
-        return json;
+      if (res.ok) {
+        const json = await res.json();
+        if (json.success) {
+          if (json.token) localStorage.setItem(STORAGE_KEYS.TOKEN, json.token);
+          if (json.user) setLocalData(STORAGE_KEYS.USER, json.user);
+          return json;
+        }
       }
-      return { success: false, error: json.error || 'Authentication failed.' };
     } catch {
-      // Local fallback for offline mode
-      const normalized = (phoneNumber || '').replace(/\D/g, '');
-      const user: User = {
-        id: `usr-${normalized || 'demo'}`,
-        phoneNumber,
-        normalizedPhone: normalized,
-        name: name || `User ${normalized.slice(-4) || 'Eco'}`,
-        weeklyTargetKg: 50.0,
-        createdAt: new Date().toISOString()
-      };
-      const token = `local-token-${user.id}`;
-      localStorage.setItem(STORAGE_KEYS.TOKEN, token);
-      setLocalData(STORAGE_KEYS.USER, user);
-      return { success: true, user, token, isNewUser: true };
+      // ignore network errors and use local fallback
     }
+
+    // Local fallback for offline / GitHub Pages mode
+    const normalized = (phoneNumber || '').replace(/\D/g, '');
+    const user: User = {
+      id: `usr-${normalized || 'demo'}`,
+      phoneNumber,
+      normalizedPhone: normalized,
+      name: name || `User ${normalized.slice(-4) || 'Eco'}`,
+      weeklyTargetKg: 50.0,
+      createdAt: new Date().toISOString()
+    };
+    const token = `local-token-${user.id}`;
+    localStorage.setItem(STORAGE_KEYS.TOKEN, token);
+    setLocalData(STORAGE_KEYS.USER, user);
+    return { success: true, user, token, isNewUser: true };
   },
 
   // Check current session
@@ -323,10 +327,35 @@ export const api = {
           user: json.user 
         };
       }
-      return { success: false, error: json.error || 'Failed to generate AI plans.' };
     } catch {
-      return { success: false, error: 'Connection error while contacting AI health engine.' };
+      // Offline / Static fallback
     }
+
+    // Client-side instant generator for static deployments
+    const cachedUser = getLocalData<User | null>(STORAGE_KEYS.USER, null);
+    const combinedPayload = {
+      name: payload?.name || cachedUser?.name || 'Alex Morgan',
+      heightCm: payload?.heightCm || cachedUser?.heightCm || 175,
+      weightKg: payload?.weightKg || cachedUser?.weightKg || 68,
+      dietPreference: payload?.dietPreference || cachedUser?.dietPreference || 'vegetarian',
+      fitnessGoal: payload?.fitnessGoal || cachedUser?.fitnessGoal || 'eco_wellness'
+    };
+
+    const dietPlan = generateClientAIDietPlan(combinedPayload);
+    const activityPlan = generateClientAIFitnessPlan(combinedPayload);
+    if (cachedUser) {
+      const updatedUser: User = {
+        ...cachedUser,
+        ...combinedPayload,
+        dietPlan,
+        activityPlan,
+        isProfileComplete: true
+      };
+      setLocalData(STORAGE_KEYS.USER, updatedUser);
+      return { success: true, dietPlan, activityPlan, user: updatedUser };
+    }
+
+    return { success: true, dietPlan, activityPlan };
   },
 
   // Get Diet Plan
@@ -340,10 +369,21 @@ export const api = {
         if (json.user) setLocalData(STORAGE_KEYS.USER, json.user);
         return { success: true, dietPlan: json.dietPlan, user: json.user };
       }
-      return { success: false, error: json.error || 'No diet plan found.' };
     } catch {
-      return { success: false, error: 'Could not fetch diet plan.' };
+      // Offline fallback
     }
+
+    const cachedUser = getLocalData<User | null>(STORAGE_KEYS.USER, null);
+    if (cachedUser?.dietPlan) {
+      return { success: true, dietPlan: cachedUser.dietPlan, user: cachedUser };
+    }
+    if (cachedUser?.heightCm && cachedUser?.weightKg) {
+      const dietPlan = generateClientAIDietPlan(cachedUser);
+      cachedUser.dietPlan = dietPlan;
+      setLocalData(STORAGE_KEYS.USER, cachedUser);
+      return { success: true, dietPlan, user: cachedUser };
+    }
+    return { success: false, error: 'No diet plan found.' };
   },
 
   // Generate AI Fitness Activity Plan
@@ -364,10 +404,30 @@ export const api = {
         if (json.user) setLocalData(STORAGE_KEYS.USER, json.user);
         return { success: true, activityPlan: json.activityPlan, user: json.user };
       }
-      return { success: false, error: json.error || 'Failed to generate AI activity plan.' };
     } catch {
-      return { success: false, error: 'Connection error while contacting AI fitness engine.' };
+      // Offline fallback
     }
+
+    const cachedUser = getLocalData<User | null>(STORAGE_KEYS.USER, null);
+    const combinedPayload = {
+      name: payload?.name || cachedUser?.name || 'Alex Morgan',
+      heightCm: payload?.heightCm || cachedUser?.heightCm || 175,
+      weightKg: payload?.weightKg || cachedUser?.weightKg || 68,
+      fitnessGoal: payload?.fitnessGoal || cachedUser?.fitnessGoal || 'eco_wellness'
+    };
+
+    const activityPlan = generateClientAIFitnessPlan(combinedPayload);
+    if (cachedUser) {
+      const updatedUser: User = {
+        ...cachedUser,
+        ...combinedPayload,
+        activityPlan
+      };
+      setLocalData(STORAGE_KEYS.USER, updatedUser);
+      return { success: true, activityPlan, user: updatedUser };
+    }
+
+    return { success: true, activityPlan };
   },
 
   // Get Activity Plan
@@ -381,10 +441,21 @@ export const api = {
         if (json.user) setLocalData(STORAGE_KEYS.USER, json.user);
         return { success: true, activityPlan: json.activityPlan, user: json.user };
       }
-      return { success: false, error: json.error || 'No activity plan found.' };
     } catch {
-      return { success: false, error: 'Could not fetch activity plan.' };
+      // Offline fallback
     }
+
+    const cachedUser = getLocalData<User | null>(STORAGE_KEYS.USER, null);
+    if (cachedUser?.activityPlan) {
+      return { success: true, activityPlan: cachedUser.activityPlan, user: cachedUser };
+    }
+    if (cachedUser?.heightCm && cachedUser?.weightKg) {
+      const activityPlan = generateClientAIFitnessPlan(cachedUser);
+      cachedUser.activityPlan = activityPlan;
+      setLocalData(STORAGE_KEYS.USER, cachedUser);
+      return { success: true, activityPlan, user: cachedUser };
+    }
+    return { success: false, error: 'No activity plan found.' };
   },
 
   // Get Reminder Settings
