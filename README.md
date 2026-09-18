@@ -36,13 +36,18 @@ npm run build
 
 ---
 
-## 🌐 Deploying to Netlify
+## 🌐 Deployment Options
 
+### Option A: GitHub Pages (Automatic via GitHub Actions)
+1. Go to your repository settings on GitHub: `https://github.com/sougatasmp69-jpg/earthly/settings/pages`
+2. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+3. Every push to `main` automatically triggers the deployment workflow (`.github/workflows/deploy.yml`).
+4. Your live app will be accessible at: **`https://sougatasmp69-jpg.github.io/earthly/`**
+
+### Option B: Netlify
 1. Connect your GitHub repository (`earthly`) to [Netlify](https://app.netlify.com).
-2. Configure build settings:
-   - **Build command**: `npm run build`
-   - **Publish directory**: `dist`
-3. Deploy! Netlify automatically reads `netlify.toml` and `public/_redirects` for SPA routing.
+2. The build settings are pre-configured in `netlify.toml` (`npm run build` → `dist`).
+3. Deploy! Netlify automatically handles SPA routing via `_redirects`.
 
 ---
 
